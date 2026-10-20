@@ -1,0 +1,25 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uilds/
+.vs/
+*.csproj
+*.sln
+ion-build.*
+
+# Local exports and workstation notes
+/outputs/
+/LOCAL-NOTES/
+/AGENTS.md
+/MIGRATION-REPORT.json
+/TEST-REPORT.json
+
+# Local environment and IDE files
+.env
+.env.*
+!.env.example
+.idea/
+*.user
+*.suo
