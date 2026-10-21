@@ -1,0 +1,9 @@
+{
+  "name": "B08-U-Linh",
+  "design": "purple manta battleship, solid violet crystal wings, four cyan eyes",
+  "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: purple manta battleship, solid violet crystal wings, four cyan eyes.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-a1400941-3549-4ebe-87b2-5171059cb116.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\B08-U-Linh.png",
+  "tool": "image_gen",
+  "transparent_background": true
+}

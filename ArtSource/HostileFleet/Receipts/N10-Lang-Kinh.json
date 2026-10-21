@@ -1,0 +1,10 @@
+{
+  "name": "N10-Lang-Kinh",
+  "role": "normal enemy",
+  "design": "Prism lancer: long slender crystal spear hull with silver triangular panels and bright magenta longitudinal laser lens",
+  "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Prism lancer: long slender crystal spear hull with silver triangular panels and bright magenta longitudinal laser lens. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-0102804f-711f-46d2-84bd-670662f63739.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\N10-Lang-Kinh.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true
+}

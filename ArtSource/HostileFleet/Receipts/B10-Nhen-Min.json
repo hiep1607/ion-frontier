@@ -1,0 +1,9 @@
+{
+  "name": "B10-Nhen-Min",
+  "design": "copper black mechanical spider battleship, eight armored legs, orange mine abdomen, red sensors",
+  "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: copper black mechanical spider battleship, eight armored legs, orange mine abdomen, red sensors.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-06558853-6e26-4a8e-a816-0a08ce682908.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\B10-Nhen-Min.png",
+  "tool": "image_gen",
+  "transparent_background": true
+}

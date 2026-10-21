@@ -1,0 +1,10 @@
+{
+  "name": "N09-To-Ong",
+  "role": "normal enemy",
+  "design": "Drone tender: wide navy carrier with four recessed rectangular hangars and three red engine nozzles",
+  "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Drone tender: wide navy carrier with four recessed rectangular hangars and three red engine nozzles. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-53d3d917-2dde-4b29-9828-49e9fa0a5095.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\N09-To-Ong.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true
+}

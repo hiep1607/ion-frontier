@@ -1,0 +1,10 @@
+{
+  "name": "N04-Tho-May",
+  "role": "normal enemy",
+  "design": "Repair frigate: broad asymmetric-looking but bilaterally balanced industrial white and orange hull, two mechanical repair arms and green tool cores",
+  "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Repair frigate: broad asymmetric-looking but bilaterally balanced industrial white and orange hull, two mechanical repair arms and green tool cores. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-f1099b9a-a951-4065-94dc-4a4a597b0d50.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\N04-Tho-May.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true
+}

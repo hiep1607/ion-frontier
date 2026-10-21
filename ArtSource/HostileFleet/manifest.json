@@ -1,0 +1,282 @@
+[
+  {
+    "name": "B01-Bao-Lua",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B01-Bao-Lua.png",
+    "guid": "d16d2de96c3d46cb9b86f676fe352cd6",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 49.58,
+    "sha256": "e6f2222a2b0a215246f85d253af7439b27e7100ebe421fea91757b83b7ac30de",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: broad crimson phoenix command battleship, orange furnace reactor, six cannon pods."
+  },
+  {
+    "name": "B02-Anh-Ma",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B02-Anh-Ma.png",
+    "guid": "793f4160c27c4764b8ccd20bb5d03417",
+    "width": 1203,
+    "height": 1308,
+    "transparentPercent": 61.58,
+    "sha256": "8fe13be87d368fcefed0c09f7653d02c3cf3d07470e61350a1c33e8a08b40c5c",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: indigo stingray battleship, split tail, violet portal rings recessed in its wings."
+  },
+  {
+    "name": "B03-Thiet-Giap",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B03-Thiet-Giap.png",
+    "guid": "4f7d7a71aa22412a8aca09291e9b2d99",
+    "width": 1184,
+    "height": 1328,
+    "transparentPercent": 33.74,
+    "sha256": "be3fc4dafe4da279057cddc62cf8c8453278d2b4a3ba4904a0ebd9f197e6324f",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: square iron fortress battleship, layered silver armor, red core, eight forward barrels."
+  },
+  {
+    "name": "B04-Nghien-Da",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B04-Nghien-Da.png",
+    "guid": "d97f3c606fce41f491270a8e1c7252c0",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 42.12,
+    "sha256": "d1378d47fac67ea82c0e967142749adb9b5c7f6695bf6ab0f773c26ac28bd3b5",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: yellow and black industrial battleship, three huge conical rotary drills at front."
+  },
+  {
+    "name": "B05-Liep-Ham",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B05-Liep-Ham.png",
+    "guid": "1f2229fc54aa47c08756c17737254b16",
+    "width": 1151,
+    "height": 1366,
+    "transparentPercent": 40.38,
+    "sha256": "8f46925c325f1a7e906b7105f22e44dd60ef047cd6c9ec32175130b2420b8ff2",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: rusty red salvage mothership, paired huge hooked mandibles, cable reels, green tractor core."
+  },
+  {
+    "name": "B06-Mat-Do",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B06-Mat-Do.png",
+    "guid": "470cf678b42d4e639b5a2cf5ff770928",
+    "width": 1243,
+    "height": 1266,
+    "transparentPercent": 52.2,
+    "sha256": "3d8dbd7daa26a07d757aa1dc4808972d7e30f01afa224f6a20e1de1608a2f8c2",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: circular defense station, central red iris reactor, four radial armored towers."
+  },
+  {
+    "name": "B07-Anh-Tien",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B07-Anh-Tien.png",
+    "guid": "bfef65ba408f44b38709464d4ba3289c",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 57.96,
+    "sha256": "940c6c07c612dda41b3896cfd3e4e3087b08cd74deed5005473e72125512c814",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: gold white racing spear battleship, long backswept fins, four blue thrusters."
+  },
+  {
+    "name": "B08-U-Linh",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B08-U-Linh.png",
+    "guid": "b6cc774263b34dddb975262eb4982e6e",
+    "width": 1199,
+    "height": 1312,
+    "transparentPercent": 55.48,
+    "sha256": "041ff17f9d5360be5fe37d72d49acb93bf95024f7b6146f05e43d95b3bccae0e",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: purple manta battleship, solid violet crystal wings, four cyan eyes."
+  },
+  {
+    "name": "B09-Tam-Loi",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B09-Tam-Loi.png",
+    "guid": "d028eda4bd5a452480736bce19ed3cb8",
+    "width": 1165,
+    "height": 1350,
+    "transparentPercent": 59.17,
+    "sha256": "57cb05a2d5852bd94bc16d7f2cbef1bcfefcba7b25756def61bcadaea63fd0c8",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: triangular teal heavy battleship, three emerald corner reactors, gold structural connectors."
+  },
+  {
+    "name": "B10-Nhen-Min",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B10-Nhen-Min.png",
+    "guid": "0a88c2a745e04019aacc5d2d305feca0",
+    "width": 1199,
+    "height": 1312,
+    "transparentPercent": 48.45,
+    "sha256": "a3b5ea063b3c12cfd66be4b1b8e0bcbd533f9b3bb5d9485b89bfcbe7b7ac508b",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: copper black mechanical spider battleship, eight armored legs, orange mine abdomen, red sensors."
+  },
+  {
+    "name": "B11-Song-Sat-Do",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B11-Song-Sat-Do.png",
+    "guid": "f993ee5982424ec7964e1ade731175cf",
+    "width": 1145,
+    "height": 1374,
+    "transparentPercent": 42.56,
+    "sha256": "dee23a914867df15a5efc6431c565feba78c63a5a6a220eadbfb827fdbd86cab",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: wide red silver axe battleship, paired large caliber cannons, red diamond cockpit."
+  },
+  {
+    "name": "B12-Truy-Diet",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B12-Truy-Diet.png",
+    "guid": "605190a183f74382b6d45f058b519f2a",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 63.3,
+    "sha256": "a154f05be7d7f3bfdf580af4c6e3043a5a2e460bd09fd824964b97cf1689cf32",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: navy elongated shark destroyer, sawtooth wings, four orange engines."
+  },
+  {
+    "name": "B13-De-Ham",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B13-De-Ham.png",
+    "guid": "ce32db94916948b9860ebb6229b3680d",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 49.08,
+    "sha256": "f3fb614db6aae933ef3378afef2c644a7d0bbc3154cc40ea56dc2a3425d2e54f",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: black platinum cathedral flagship, violet singularity core, layered wings, six siege cannons."
+  },
+  {
+    "name": "B14-Kim-Ham",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B14-Kim-Ham.png",
+    "guid": "d25edcde3201446186f9ecb44e5c40bf",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 41.6,
+    "sha256": "6e3e814bca46e17b70397fca8289e8dea51ba3d4d65ded404443734ce2de89ba",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: rust orange crab warship, two huge grappling pincers, green magnetic capacitors."
+  },
+  {
+    "name": "B15-Loi-Ve",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B15-Loi-Ve.png",
+    "guid": "212da8b6095f4161806b2ba2dec77977",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 51.37,
+    "sha256": "d2d0d95e7215cdf5f218988df04e31815099eff8f7a4ddd19697cdc36aca9fd7",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: teal gold diamond reactor warship, one huge green reactor, four blade stabilizers."
+  },
+  {
+    "name": "B16-Song-Sat-Lam",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\B16-Song-Sat-Lam.png",
+    "guid": "e1c1ab27c99a433685410e1eed90cca5",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 60.87,
+    "sha256": "08b88e63caa2ad08077032f84b61f609637df2dfa89423b5147b33428ad9420f",
+    "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: cobalt silver trident warship, long central energy lance, two blue reactors, swept silver fins."
+  },
+  {
+    "name": "N01-Dao-Cat",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N01-Dao-Cat.png",
+    "guid": "4082c69df2d74a9488eb544599a392a1",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 72.09,
+    "sha256": "77dbe264f3c88959f948d1f374e54d3d08d0a96ab2b1c95efa6089576a5dbd31",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Slicer flanker: two long separated silver blade wings around a small orange cockpit, narrow angular red hull. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N02-Loi-Ngu",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N02-Loi-Ngu.png",
+    "guid": "c1546f15d96848a8920da5402c8b18af",
+    "width": 1205,
+    "height": 1305,
+    "transparentPercent": 67.46,
+    "sha256": "27139289060099f32304c29a24c38d877d6e502729e008020d8006bdbeffad4b",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Torpedo carrier: thick olive gunmetal submarine-like fuselage, four prominent red missile tubes, stubby fins. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N03-Cung-Dien",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N03-Cung-Dien.png",
+    "guid": "4fe9281e2f354b45a1466f566c098b2d",
+    "width": 1287,
+    "height": 1222,
+    "transparentPercent": 68.61,
+    "sha256": "926af7906b6d033fd90ed65d580cf17d580d1d368b4291d4622678a9a96ccafe",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Arc sentry: six-point star-shaped copper and dark blue ship surrounding a glowing cyan electric ring. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N04-Tho-May",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N04-Tho-May.png",
+    "guid": "f7016fd8b7f6497b99c2b0d425839fcd",
+    "width": 1145,
+    "height": 1374,
+    "transparentPercent": 63.28,
+    "sha256": "c574171596eebc66a34ae1aea03ff34881a23932521db6c4399d70cafb4986c6",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Repair frigate: broad asymmetric-looking but bilaterally balanced industrial white and orange hull, two mechanical repair arms and green tool cores. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N05-Det-Khien",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N05-Det-Khien.png",
+    "guid": "560864f2fdeb4c0198c3f70cda315010",
+    "width": 1312,
+    "height": 1199,
+    "transparentPercent": 57.06,
+    "sha256": "ded19caa8752f593e360b5ad79279939fe5abd3bc128d0bdd43cfbc25d4d8842",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Shield weaver: rounded pale titanium horseshoe ship, large blue shield capacitor dishes on each wing. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N06-Chop-Anh",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N06-Chop-Anh.png",
+    "guid": "95bc28b6a335484396d54f2875cbf315",
+    "width": 1230,
+    "height": 1278,
+    "transparentPercent": 69.9,
+    "sha256": "dcb547752ffa7c3315a1190f2ddd09ac352cc4e87c014aefdfad4cf32e66486e",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Blink raider: black purple split arrowhead ship with three violet teleport crystals and sharply backward swept forked wings. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N07-Rai-Moc",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N07-Rai-Moc.png",
+    "guid": "a0d2b52855da40279dc5b191af0d7a7f",
+    "width": 1158,
+    "height": 1359,
+    "transparentPercent": 50.06,
+    "sha256": "ca488933c236f20f7f087f44a7dff24568f25700833a21166245a40319bd061e",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Mine layer: squat hexagonal armored cargo ship in yellow black hazard colors, six visible spherical mine racks. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N08-Lao-Keo",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N08-Lao-Keo.png",
+    "guid": "86237cd970514a22804ef65b6e44e42e",
+    "width": 1199,
+    "height": 1312,
+    "transparentPercent": 59.5,
+    "sha256": "deb0d2c8191038a1c2b0d33710fb4b439c985b7c14ebbc5c23b88cbac4767ffe",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Harpoon tug: rust red and iron broad U-shaped hull with twin hooked arms and magnetic cable reels. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N09-To-Ong",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N09-To-Ong.png",
+    "guid": "9b6142f030ea4a1094f56ba98456f5b7",
+    "width": 1199,
+    "height": 1312,
+    "transparentPercent": 52.31,
+    "sha256": "6b4ed669b121a296685304d6274fc7093285b6638206c77a4be61851b4ddcdf2",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Drone tender: wide navy carrier with four recessed rectangular hangars and three red engine nozzles. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N10-Lang-Kinh",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N10-Lang-Kinh.png",
+    "guid": "38a76c1d097c4b0894633472fb533063",
+    "width": 1024,
+    "height": 1536,
+    "transparentPercent": 76.23,
+    "sha256": "5425c596e31a63b8b18f8256a21caadff1d0b620c7163575de8c84ca20f8b5ef",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Prism lancer: long slender crystal spear hull with silver triangular panels and bright magenta longitudinal laser lens. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N11-Phao-Dai",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N11-Phao-Dai.png",
+    "guid": "538f0906dd494fb4934c69ce0cfaea21",
+    "width": 1199,
+    "height": 1312,
+    "transparentPercent": 61.7,
+    "sha256": "bd51c6064a6c3f94e0ac7c824375d52eb1700ff358db2b077fe0514f5f7ea3d9",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Siege barge: heavy dark green H-shaped battleship with two massive offset cannon barrels and gold armor ribs. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  },
+  {
+    "name": "N12-Tu-Than",
+    "path": "Assets\\IonFrontier\\Art\\HostileFleet\\N12-Tu-Than.png",
+    "guid": "7fabfded380a44518723a547a2644675",
+    "width": 1211,
+    "height": 1299,
+    "transparentPercent": 71.39,
+    "sha256": "7be8e2e448723d6e8240f614e1a1c55d1be5b734b381de07fbb5f8355019d638",
+    "prompt": "Use case: stylized-concept. Asset type: ONE final RGBA transparent PNG spacecraft sprite for Unity vertical shooter ION FRONTIER. normal enemy: Void reaper: obsidian crescent interceptor with indigo core and four scythe prongs. Original distinctive full silhouette, not a recolor. STRICT ORTHOGRAPHIC TOP DOWN VIEW, enemy NOSE POINTS VERTICALLY DOWN, engine exhaust at TOP. Detailed polished hand-painted sci-fi metal rendering consistent with premium 2D arcade spaceship sprites. Bilateral balance, crisp readable hull, restrained engine glow. Entire ship centered with 10 percent empty transparent padding on all sides including every tip. Exactly ONE ship, no separate drones or detached elements. Genuine transparent alpha background. NO perspective, NO stars or scene, NO text, NO UI, NO frame, NO watermark. Compact combat craft, clear silhouette at 80 screen pixels."
+  }
+]

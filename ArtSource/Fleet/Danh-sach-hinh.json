@@ -1,0 +1,208 @@
+{
+  "generator": "Built-in ImageGen",
+  "assetType": "2D top-down spacecraft sprites",
+  "counts": {
+    "player": 3,
+    "regularEnemy": 7,
+    "boss": 3,
+    "total": 13
+  },
+  "originalPixelsPreserved": true,
+  "assets": [
+    {
+      "name": "Phong Ưng",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Nguoi-choi/01-Phong-Ung.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        72,
+        56,
+        1183,
+        1183
+      ],
+      "sha256": "87d78954688b889fa8a62b3663af819d9a1ddbca62ddb3762569e1980dd2fbd2"
+    },
+    {
+      "name": "Lôi Điểu",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Nguoi-choi/02-Loi-Dieu.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        26,
+        63,
+        1228,
+        1145
+      ],
+      "sha256": "e33bd96be36c2350b34f25d0b49752931b0a89a2f55fefeff600af8f960e963a"
+    },
+    {
+      "name": "Thiết Vệ",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Nguoi-choi/03-Thiet-Ve.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        104,
+        64,
+        1150,
+        1153
+      ],
+      "sha256": "94d6337e1be53cf57d704042e882f0fd9397e07f3b8cdc3314ece679abfb4699"
+    },
+    {
+      "name": "Trinh Sát",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/01-Trinh-Sat.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        122,
+        64,
+        1132,
+        1148
+      ],
+      "sha256": "de548feb00ddb0c306132f70d63772ad3c0dfaaa70831798fa15eff18090a979"
+    },
+    {
+      "name": "Đánh Chặn",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/02-Danh-Chan.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        52,
+        58,
+        1203,
+        1130
+      ],
+      "sha256": "10ef34e08db1efb80dd8a916e61262c0253ffb54bb31a350464a1e50687209c9"
+    },
+    {
+      "name": "Đột Kích",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/03-Dot-Kich.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        137,
+        58,
+        1118,
+        1199
+      ],
+      "sha256": "141e5577f4532dd03e609a037f920645c26a9b5411d902f1dad28153659a312d"
+    },
+    {
+      "name": "Oanh Tạc",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/04-Oanh-Tac.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        26,
+        27,
+        1228,
+        1180
+      ],
+      "sha256": "9707327cd580cf8cb20d0493227efe02ac5ae227c64654e299aa036ecf073b63"
+    },
+    {
+      "name": "Xạ Thủ",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/05-Xa-Thu.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        383,
+        29,
+        871,
+        1228
+      ],
+      "sha256": "65b4e6739d4d4e6f6afc3cd563744aa41e6a926a54c04eec99bad88398c8436e"
+    },
+    {
+      "name": "Hộ Vệ",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/06-Ho-Ve.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        190,
+        49,
+        1065,
+        1176
+      ],
+      "sha256": "b94b457cea8a23311298358955debb41ab91c1291d682668c3a072a28f490f31"
+    },
+    {
+      "name": "Tinh Nhuệ",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Dich/07-Tinh-Nhue.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        59,
+        43,
+        1196,
+        1207
+      ],
+      "sha256": "fa29c17e0fb396c166e919138d9bdbba6a0503d891b808a1850b837a8b571443"
+    },
+    {
+      "name": "Bão Lửa",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Boss/01-Bao-Lua.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        20,
+        32,
+        1234,
+        1203
+      ],
+      "sha256": "81a149f594787279e5a2670bd519c708ddc3d92e47a1a3f576c522cd464b44e5"
+    },
+    {
+      "name": "Ảnh Ma",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Boss/02-Anh-Ma.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        79,
+        13,
+        1176,
+        1234
+      ],
+      "sha256": "b5f8aa3174739661dfa58afef38c6bdad28ed3ad33cce46bc798650d5dd71096"
+    },
+    {
+      "name": "Thiết Giáp Vương",
+      "file": "../../Assets/IonFrontier/Art/Fleet/Boss/03-Thiet-Giap-Vuong.png",
+      "width": 1254,
+      "height": 1254,
+      "rgba": true,
+      "transparent": true,
+      "visibleBounds": [
+        5,
+        17,
+        1251,
+        1165
+      ],
+      "sha256": "5200ec5ab836bd0eeb41e866b5b82a96193cacd54a421a5936c59b11dbd513e8"
+    }
+  ]
+}

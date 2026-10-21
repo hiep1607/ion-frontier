@@ -1,0 +1,9 @@
+{
+  "name": "B05-Liep-Ham",
+  "design": "rusty red salvage mothership, paired huge hooked mandibles, cable reels, green tractor core",
+  "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: rusty red salvage mothership, paired huge hooked mandibles, cable reels, green tractor core.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-bd355393-a0f4-4f57-8ef4-fbf76aa8431a.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\B05-Liep-Ham.png",
+  "tool": "image_gen",
+  "transparent_background": true
+}

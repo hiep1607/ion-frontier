@@ -1,0 +1,9 @@
+{
+  "name": "B11-Song-Sat-Do",
+  "design": "wide red silver axe battleship, paired large caliber cannons, red diamond cockpit",
+  "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: wide red silver axe battleship, paired large caliber cannons, red diamond cockpit.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-20463f8b-f426-4808-b0d8-8cadfb136fae.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\B11-Song-Sat-Do.png",
+  "tool": "image_gen",
+  "transparent_background": true
+}

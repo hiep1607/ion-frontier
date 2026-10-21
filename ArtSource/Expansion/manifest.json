@@ -1,0 +1,47 @@
+[
+  {
+    "name": "04-Hoa-Phuong",
+    "path": "Assets\\IonFrontier\\Art\\Fleet\\Nguoi-choi\\04-Hoa-Phuong.png",
+    "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-6b7b4484-2677-49f9-b2ad-b51bc5854182.png",
+    "design": "Broad red/amber phoenix fighter with thermal bomb pods",
+    "sha256": "3a88854b3fbb78026f1f8d7813b99e2ab817bd93c3a1947f827a23250f5e0690",
+    "tool": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "name": "05-Anh-Vu",
+    "path": "Assets\\IonFrontier\\Art\\Fleet\\Nguoi-choi\\05-Anh-Vu.png",
+    "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-d6581a22-e6c6-4b0d-9a6f-b6c2dab3e43a.png",
+    "design": "Forked violet twin dagger interceptor",
+    "sha256": "475dd5a9f80c39c142c41f99ca15930fe6e7e19060de67c3696236d06f7c448a",
+    "tool": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "name": "06-Tu-Long",
+    "path": "Assets\\IonFrontier\\Art\\Fleet\\Nguoi-choi\\06-Tu-Long.png",
+    "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-4f45f7d7-5e9e-4453-b41f-5d4ed243388c.png",
+    "design": "Jade horseshoe fighter with magnetic coils",
+    "sha256": "725c38265027de36739793f7a2e1fd289b507fb0e6a55deb1b6e6515ea648222",
+    "tool": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "name": "07-Tinh-Van",
+    "path": "Assets\\IonFrontier\\Art\\Fleet\\Nguoi-choi\\07-Tinh-Van.png",
+    "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-b3f00d95-1c62-4764-8d5c-c478ba503446.png",
+    "design": "White cobalt command fighter with four drone docks",
+    "sha256": "e6f95e64881d0b1e25ed5c2c8582ee819a166455eca50f69041bd0514a635f23",
+    "tool": "built-in image_gen",
+    "transparent_background": true
+  },
+  {
+    "name": "08-Hu-Khong",
+    "path": "Assets\\IonFrontier\\Art\\Fleet\\Nguoi-choi\\08-Hu-Khong.png",
+    "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-790409ff-6187-4baa-b3d6-5d0f6415485e.png",
+    "design": "Split diamond void fighter with central violet singularity",
+    "sha256": "edd5cff9113d879202ed9b3106f840edddb6674f7989b8619bd9fe35700592f0",
+    "tool": "built-in image_gen",
+    "transparent_background": true
+  }
+]

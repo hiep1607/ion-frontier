@@ -1,0 +1,9 @@
+{
+  "name": "B12-Truy-Diet",
+  "design": "navy elongated shark destroyer, sawtooth wings, four orange engines",
+  "prompt": "Use case stylized-concept. ONE final RGBA transparent PNG boss spacecraft sprite for Unity vertical shooter ION FRONTIER. Original distinctive full silhouette, not recolor. STRICT ORTHOGRAPHIC TOP DOWN, enemy NOSE VERTICALLY DOWN, exhaust TOP. Detailed polished hand-painted sci-fi metal premium 2D, crisp hull, bilateral balance, 10% transparent padding around every tip, one ship no detached drones. Genuine transparent alpha background. NO perspective, stars, scene, text, UI, frame or watermark. Large identifiable core and hull subsystems. Design: navy elongated shark destroyer, sawtooth wings, four orange engines.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-bb0f3294-0d3c-457e-a45e-cdaf32ba2998.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\HostileFleet\\B12-Truy-Diet.png",
+  "tool": "image_gen",
+  "transparent_background": true
+}
