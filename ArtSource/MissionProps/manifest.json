@@ -1,0 +1,79 @@
+[
+  {
+    "name": "01-Da-Vu-Tru",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\01-Da-Vu-Tru.png",
+    "guid": "b6a20e1e78284505874fa3b8a7393f59",
+    "width": 1305,
+    "height": 1205,
+    "sha256": "db75400fe217d2e93a5d5d514c0affd2c5b324f3edda2385c3f8351823fdcf27",
+    "transparentPercent": 58.01,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one jagged fractured gray nickel iron asteroid with ochre mineral veins, irregular chunky silhouette, visible craters and metal fragments embedded, no glow. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "02-Min-Khong-Gian",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\02-Min-Khong-Gian.png",
+    "guid": "b13c552f9cb246b191d0b5acf0bbda98",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "32a495aaee918f26dd1344424b82f0ccacc9c2b1f38857295232dc70cf73f81f",
+    "transparentPercent": 73.28,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one compact spherical dark gunmetal space mine, six short radial armored spikes, orange explosive core, small red armed lamps, clear dangerous silhouette. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "03-May-Phat-Khien",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\03-May-Phat-Khien.png",
+    "guid": "70d9c054082842f9be1fc5e9d7aa949f",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9b4141e372b20bd33de3ea9a8827d90920dc0240049ed80682b61b9a50d625a5",
+    "transparentPercent": 46.35,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one square orbital shield generator station, four heavy ivory armored corner pylons, glowing amber reactor in the center, blue energy conduits and industrial vents, machinery visible from above. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "04-Den-Cuu-Ho",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\04-Den-Cuu-Ho.png",
+    "guid": "dda0fbc9acc74c9db886fe07cb17e396",
+    "width": 1267,
+    "height": 1241,
+    "sha256": "9f6e0c8aba3a40c7e9306da1f40d8f293f0ebd0f8538b5ba141fc61dc6cec08b",
+    "transparentPercent": 75.36,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one small rescue beacon spacecraft pod, white teal rounded capsule with two folded solar-panel wings, cyan signal dish and green rescue lights, clearly friendly, no lettering. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "05-Loi-Dieu-Khien",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\05-Loi-Dieu-Khien.png",
+    "guid": "20f2cf1d3b9c44e4a29971543fd4f41d",
+    "width": 1278,
+    "height": 1230,
+    "sha256": "10c10007a6f797a8490daf5398951c3de3e75de8b8329276ae01549d320a7da8",
+    "transparentPercent": 55.98,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one circular capture control hub, metallic concentric docking rings and three radial green energy capacitors around an emerald central console, compact round silhouette, no surrounding UI rings. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "06-Tau-Van-Tai",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\06-Tau-Van-Tai.png",
+    "guid": "6a722068a67e40339863d0d0eab9195d",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b1534e3b99554519fb7715733b5d1644970c8760b6575624bede1aaa9839814f",
+    "transparentPercent": 58.91,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one friendly civilian evacuation transport spaceship, nose vertically UP and thrusters at BOTTOM, elongated white and navy armored hull, paired large blue engine nacelles, cargo containers and two rescue capsule bays, clearly distinct from a fighter. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "name": "07-Moc-Keo",
+    "path": "Assets\\IonFrontier\\Art\\MissionProps\\07-Moc-Keo.png",
+    "guid": "274c78fd743047208406bbd8e7440e3e",
+    "width": 1312,
+    "height": 1199,
+    "sha256": "26d0b96df5a5e8ec0e2f6a1d88896314c0717544c5bd8a47dce9fe19831dd739",
+    "transparentPercent": 61.54,
+    "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one enemy orbital tractor tether station, broad rusty orange horseshoe machinery, paired inward-facing magnetic clamps and cable drums, green energy coil and small red warning lamps, heavy industrial silhouette. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+    "mode": "built-in image_gen"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "02-Min-Khong-Gian",
+  "design": "one compact spherical dark gunmetal space mine, six short radial armored spikes, orange explosive core, small red armed lamps, clear dangerous silhouette",
+  "prompt": "Use case: stylized-concept. Asset type: one final RGBA transparent PNG gameplay prop sprite for ION FRONTIER Unity 2D vertical shooter. Design: one compact spherical dark gunmetal space mine, six short radial armored spikes, orange explosive core, small red armed lamps, clear dangerous silhouette. STRICT ORTHOGRAPHIC TOP-DOWN VIEW, polished premium hand-painted sci-fi metal, detailed but readable at 80-120 pixels, coherent with realistic illustrated spaceship sprites. Single complete object centered with at least 10 percent fully transparent padding on every side, no cropped tips. Genuine alpha transparency. NO text, symbols of letters, UI, frame, perspective, floor, cast shadow, scenery, stars or watermark. Restrained built-in glow only.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-6146870c-3df5-46b9-91ef-5a7fa9ff2df6.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\MissionProps\\02-Min-Khong-Gian.png",
+  "mode": "built-in image_gen",
+  "transparent_background": true
+}

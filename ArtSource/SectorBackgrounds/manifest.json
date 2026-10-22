@@ -1,0 +1,210 @@
+[
+  {
+    "stage": 1,
+    "name": "01-Quy-Dao-Huan-Luyen",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\01-Quy-Dao-Huan-Luyen.png",
+    "guid": "a788fd911f5c4572adc219bdb65163ac",
+    "width": 1672,
+    "height": 941,
+    "sha256": "90504c05e65a4e21a5919d9bb6c9f285ce0a6ff4539a1562cea4410194a22847",
+    "centralMeanRGB": [
+      8.51,
+      18.99,
+      39.07
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: calm blue orbital training sector above the curved blue ocean limb of a planet on the far LEFT edge, small white training docks and navigation gantries along the upper RIGHT edge, distant clean orbital infrastructure, tranquil navy central flight lane. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 2,
+    "name": "02-Khe-Bui-Dot-Kich",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\02-Khe-Bui-Dot-Kich.png",
+    "guid": "7668762d2b314803b472827c71aebef5",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8ec20e45bece7ef47caf2826655cd51577534bc44edc55e98cb3f11befa95bbb",
+    "centralMeanRGB": [
+      37.39,
+      22.12,
+      14.75
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: amber ochre interstellar dust canyon, two immense broken jump-relay pylons framing the LEFT and RIGHT edges at opposing diagonal angles, dark rust clouds and narrow diagonal navigation passage, covert raid atmosphere. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 3,
+    "name": "03-Cua-Thanh-Tri",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\03-Cua-Thanh-Tri.png",
+    "guid": "f43e500eb026401ab049ce2e5217ab0c",
+    "width": 1672,
+    "height": 941,
+    "sha256": "183647e68110600b0952950c3bbc3a4cd570a2ee09bb095c60b9737f870c0e58",
+    "centralMeanRGB": [
+      14.17,
+      11.65,
+      13.4
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: ominous enemy citadel entrance seen straight down, gigantic dark iron space fortress walls and recessed hangar structures framing the TOP and two outer SIDE edges, dim crimson windows, angular industrial steel architecture, central open black approach lane. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 4,
+    "name": "04-Nghia-Dia-Chien-Ham",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\04-Nghia-Dia-Chien-Ham.png",
+    "guid": "9c4c6df2c3db4ff0b0d6af02a95817b2",
+    "width": 1672,
+    "height": 941,
+    "sha256": "958b86b93f3a0a859d611436bb049879549e11f2497f5eaca6954d494e478551",
+    "centralMeanRGB": [
+      21.79,
+      24.39,
+      28.78
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: gray bronze spaceship graveyard and shattered asteroid belt, huge broken capital ship ribs and severed armored hull sections among irregular rocks at the outer edges, diagonal debris ring from upper left to lower right, deep empty charcoal flight space in the middle. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 5,
+    "name": "05-Hanh-Lang-So-Tan",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\05-Hanh-Lang-So-Tan.png",
+    "guid": "3f264bfcdd5e45e8b17f2974ca53bad1",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9b2e5226541af11703883903cd1a199a79060fd12aed3aadb76e045edb8ccf27",
+    "centralMeanRGB": [
+      4.08,
+      17.65,
+      34.25
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: peaceful yet threatened civilian evacuation corridor on the night side of a blue planet, curved planetary city lights at the far RIGHT edge, distant blue lit civilian departure docks and orderly cargo infrastructure at the far LEFT edge, broad open midnight blue central transit lane, no foreground spacecraft. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 6,
+    "name": "06-Vanh-Tram-Quy-Dao",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\06-Vanh-Tram-Quy-Dao.png",
+    "guid": "981506771eda48c4a9c879f31157f032",
+    "width": 1672,
+    "height": 941,
+    "sha256": "14f127db674f2f3766d7178ab9082614b286fe23a5182db12ea1a11016ee893e",
+    "centralMeanRGB": [
+      14.3,
+      19.02,
+      23.38
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: massive orbital shield station ring seen orthographically from above, pale gray mechanical arcs and shield dish infrastructure cropped only at the outer four corners, restrained red reactor indicators and blue power conduits, hard industrial geometry, central open space window for combat. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 7,
+    "name": "07-Duong-Ham-Sieu-Toc",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\07-Duong-Ham-Sieu-Toc.png",
+    "guid": "f4a0dc7c5b3741b1bbe81fa176106d3c",
+    "width": 1672,
+    "height": 941,
+    "sha256": "743de7d8c5b62d6ff310caa7eae1611b61f9a927e5b7e964ed534686a521581a",
+    "centralMeanRGB": [
+      10.54,
+      32.64,
+      41.8
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: high speed hyperspace pursuit corridor, elongated cyan and pale gold energy streams parallel to the vertical flight direction ONLY along the far left and right margins, distant narrowing tunnel architecture at the top edge, spacious very dark teal central chase lane. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 8,
+    "name": "08-Suong-Tim-Cuu-Ho",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\08-Suong-Tim-Cuu-Ho.png",
+    "guid": "5d88131382814e1bbaa0c3efc84743b0",
+    "width": 1672,
+    "height": 941,
+    "sha256": "880865330af04e37af066bcab839f133623ece0a463a15d3d17131e32c89141b",
+    "centralMeanRGB": [
+      18.09,
+      16.37,
+      36.31
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: mysterious rescue sector engulfed in deep violet and indigo nebula mist, layered wispy purple cloud banks curling along the outer sides, a faint fractured moon crescent at the far upper LEFT edge, a few extremely distant cyan signal lights near corners, dark open misty center. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 9,
+    "name": "09-Mang-Loi-Luc-Bao",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\09-Mang-Loi-Luc-Bao.png",
+    "guid": "156a34f820e34fa0aa80b4bdeac940d4",
+    "width": 1672,
+    "height": 941,
+    "sha256": "36fa0034dfd282b7331b897a1589a1b3bdeff2751d5588953792a2ec3a5423d4",
+    "centralMeanRGB": [
+      5.38,
+      15.66,
+      11.27
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: emerald orbital reactor network with three huge distant power stations located at upper left, upper right and bottom edge, delicate subdued teal conduits forming triangular geometry around the outer perimeter, green reactor pools embedded in machinery, broad black green central control area. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 10,
+    "name": "10-Vanh-Dai-Khai-Mo",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\10-Vanh-Dai-Khai-Mo.png",
+    "guid": "106dbc29721341a0b1e396c71ecd8569",
+    "width": 1672,
+    "height": 941,
+    "sha256": "21fa21dca49b0ccf56f82655342c1bda72abcd5ba6215a657ac06a8f8acc578b",
+    "centralMeanRGB": [
+      27.43,
+      23.76,
+      22.59
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: abandoned copper orange mining perimeter in deep space, immense disused ore processing drums, broken industrial trusses and dark rock masses clustered at outer edges, a few small deactivated mine storage pods integrated into machinery, low dim amber hazard lamps, clear charcoal center. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 11,
+    "name": "11-Nga-Ba-Hai-Tin-Hieu",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\11-Nga-Ba-Hai-Tin-Hieu.png",
+    "guid": "5c4afbeadf91479abbcd5a579823b97d",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a1db527502b09881019c5a69db2a71b7484e120ded96db4b1086456738d88a65",
+    "centralMeanRGB": [
+      11.82,
+      19.87,
+      39.17
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: two contrasting distress destinations separated by an open central space fork: cool cyan civilian supply port on the far LEFT, damaged violet red scout rescue outpost on the far RIGHT, diverging distant orbital routes at the top, broad navy central decision corridor, balanced split composition. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 12,
+    "name": "12-Ria-Khong-Gian-Sup-Do",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\12-Ria-Khong-Gian-Sup-Do.png",
+    "guid": "bb3840c890da467eab9e402e01955251",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9e4599aeca71fc7f4144502af5733c4d6f380d623ffaaa3d25102ea98e911764",
+    "centralMeanRGB": [
+      28.96,
+      6.79,
+      7.06
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: unstable red black collapsing space sector, massive fractured station panels at the outer TOP corners, dark crimson gravitational fissure and incandescent material flow along the BOTTOM edge, thin diagonal ember trails at the far sides, a broad dark burgundy escape lane through the center. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  },
+  {
+    "stage": 13,
+    "name": "13-Noi-Vuc-De-Ham",
+    "path": "Assets\\IonFrontier\\Art\\SectorBackgrounds\\13-Noi-Vuc-De-Ham.png",
+    "guid": "8f6293e6a6d7415899f73606aede88ac",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3e224882b643c6dc17e71718322e197d768a52fd520ad8987d5468b086b42a1a",
+    "centralMeanRGB": [
+      24.25,
+      21.29,
+      36.08
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: final approach inside the enormous void emperor flagship domain, gigantic black platinum cathedral-like battleship superstructure along the far left and right borders, layered armored vaults at the top edge, distant restrained violet singularity reactor crown embedded in the architecture, intimidating broad near-black purple central arena. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+    "mode": "built-in image_gen"
+  }
+]

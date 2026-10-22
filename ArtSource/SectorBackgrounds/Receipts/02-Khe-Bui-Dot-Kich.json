@@ -1,0 +1,9 @@
+{
+  "name": "02-Khe-Bui-Dot-Kich",
+  "design": "amber ochre interstellar dust canyon, two immense broken jump-relay pylons framing the LEFT and RIGHT edges at opposing diagonal angles, dark rust clouds and narrow diagonal navigation passage, covert raid atmosphere",
+  "prompt": "Use case: stylized-concept. Asset type: ONE finished full-screen game environment painting for ION FRONTIER Unity 2D vertical spacecraft shooter. WIDE LANDSCAPE 16:9 composition, ideally 1920x1080. STRICT ORTHOGRAPHIC TOP DOWN, no horizon or perspective vanishing point. Scene: amber ochre interstellar dust canyon, two immense broken jump-relay pylons framing the LEFT and RIGHT edges at opposing diagonal angles, dark rust clouds and narrow diagonal navigation passage, covert raid atmosphere. Premium detailed hand-painted cinematic science-fiction illustration, metallic surface detail and subtle volumetric interstellar dust. CRITICAL GAMEPLAY READABILITY: central 65 percent of the image must be spacious very dark low-contrast empty flight space, without big objects, bright light, clutter or point-of-interest in the center. Distinct recognizable environmental structures remain only at the outer margins. Important motifs inside the outer side thirds, safe to crop a little at top/bottom. Background decorations are distant and subdued. Very sparse tiny stars. No actual foreground fighter, enemies, boss, projectiles, lasers, pickups, HUD, UI, text, logo, watermark or frame. Full bleed opaque environment, not transparent. Compose as a believable original sector, not just a colored starfield.",
+  "source": "C:\\Users\\OS\\.codex\\generated_images\\01a153a6-da35-7491-ba38-ec816e6ad68c\\exec-dd48652d-2e53-4d01-bb02-76535c148d03.png",
+  "target": "D:\\Projects\\IonFrontier\\Assets\\IonFrontier\\Art\\SectorBackgrounds\\02-Khe-Bui-Dot-Kich.png",
+  "mode": "built-in image_gen",
+  "transparent_background": false
+}
