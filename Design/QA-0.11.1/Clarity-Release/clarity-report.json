@@ -1,0 +1,23 @@
+{
+    "passed": true,
+    "checks": [
+        "PASS: Defeat is terminal even when a pending player bolt and late boss-death callback execute",
+        "PASS: Lethal asteroid contact prevents later world damage, route progress and checkpoint rewards",
+        "PASS: Owner killed during charge cancels only its laser",
+        "PASS: Owner killed while firing cancels its laser",
+        "PASS: Reused enemy slot cannot keep the previous laser",
+        "PASS: Unexpected serial mismatch retires the stale laser",
+        "PASS: Source retreat cancels its dependent beam",
+        "PASS: Killing a source without a laser preserves unrelated beams",
+        "PASS: Laser damage integrates only the active firing slice after its telegraph",
+        "PASS: Real UI button callback 1 selects one card without pickup credit or duplicate award",
+        "PASS: Real UI button callback 2 selects one card without pickup credit or duplicate award",
+        "PASS: Real UI button callback 3 selects one card without pickup credit or duplicate award",
+        "PASS: Pause after selection preserves the chosen reward and frozen resume countdown",
+        "PASS: The real resume delay ends without an accidental player shot",
+        "PASS: Pattern replacement preview reports the suspended module without mutating the live loadout",
+        "PASS: HUD reads real pulse progress and reactive-armor cooldown",
+        "PASS: Normal movement escapes live tractor/laser on the full Update path with dash unavailable and no protection"
+    ],
+    "errors": []
+}

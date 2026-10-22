@@ -1,0 +1,11 @@
+{
+  "version": "0.11.1",
+  "passed": true,
+  "currentChecks": 567,
+  "frozenSourceVerified": true,
+  "historical0110FilesVerified": 169,
+  "historical0110Unchanged": true,
+  "assemblyVerified": true,
+  "packageVerified": true,
+  "noGitHubPush": true
+}

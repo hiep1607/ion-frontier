@@ -1,0 +1,156 @@
+{
+    "scope": "Six unprotected stage4 bot trials, three hulls with/without a supplied Q; not a manual balance verdict",
+    "trials": [
+        {
+            "hull": 0,
+            "suppliedQ": false,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "ĐẠN ĐỊCH",
+            "seconds": 35.206180572509766,
+            "distance": 1760.2947998046875,
+            "health": 0.0,
+            "damageTaken": 100.0,
+            "ammo": 168,
+            "ammoSpent": 192,
+            "choices": 1,
+            "damage": [
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 46.0
+                },
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 54.0
+                }
+            ]
+        },
+        {
+            "hull": 0,
+            "suppliedQ": true,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "THIÊN THẠCH",
+            "seconds": 29.052188873291016,
+            "distance": 1452.0491943359375,
+            "health": 0.0,
+            "damageTaken": 100.0,
+            "ammo": 202,
+            "ammoSpent": 158,
+            "choices": 1,
+            "damage": [
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 70.0
+                },
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 30.0
+                }
+            ]
+        },
+        {
+            "hull": 1,
+            "suppliedQ": false,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "THIÊN THẠCH",
+            "seconds": 32.88349914550781,
+            "distance": 1643.6600341796875,
+            "health": 0.0,
+            "damageTaken": 90.0,
+            "ammo": 162,
+            "ammoSpent": 198,
+            "choices": 1,
+            "damage": [
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 40.0
+                },
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 50.0
+                }
+            ]
+        },
+        {
+            "hull": 1,
+            "suppliedQ": true,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "ĐẠN ĐỊCH",
+            "seconds": 22.437095642089844,
+            "distance": 1121.31201171875,
+            "health": 0.0,
+            "damageTaken": 90.0,
+            "ammo": 165,
+            "ammoSpent": 135,
+            "choices": 0,
+            "damage": [
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 54.0
+                },
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 36.0
+                }
+            ]
+        },
+        {
+            "hull": 2,
+            "suppliedQ": false,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "THIÊN THẠCH",
+            "seconds": 38.53053283691406,
+            "distance": 1925.6580810546875,
+            "health": 0.0,
+            "damageTaken": 130.0,
+            "ammo": 107,
+            "ammoSpent": 193,
+            "choices": 1,
+            "damage": [
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 60.0
+                },
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 70.0
+                }
+            ]
+        },
+        {
+            "hull": 2,
+            "suppliedQ": true,
+            "eliteKilled": false,
+            "reachedBoss": false,
+            "outcome": "Defeat",
+            "lastDamageSource": "THIÊN THẠCH",
+            "seconds": 27.2509765625,
+            "distance": 1362.0723876953125,
+            "health": 0.0,
+            "damageTaken": 130.0,
+            "ammo": 223,
+            "ammoSpent": 137,
+            "choices": 1,
+            "damage": [
+                {
+                    "source": "ĐẠN ĐỊCH",
+                    "damage": 30.0
+                },
+                {
+                    "source": "THIÊN THẠCH",
+                    "damage": 100.0
+                }
+            ]
+        }
+    ],
+    "errors": []
+}

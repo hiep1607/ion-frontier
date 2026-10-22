@@ -1,0 +1,13 @@
+{
+    "passed": true,
+    "checks": [
+        "PASS: Physical mouse selects card 1 once and does not fire through the modal",
+        "PASS: Physical mouse selects card 2 once and does not fire through the modal",
+        "PASS: Physical mouse selects card 3 once and does not fire through the modal",
+        "PASS: Physical keyboard selects card 1 once and does not fire through the modal",
+        "PASS: Physical keyboard selects card 2 once and does not fire through the modal",
+        "PASS: Physical keyboard selects card 3 once and does not fire through the modal",
+        "PASS: Physical pause and resume preserve the pending draft"
+    ],
+    "errors": []
+}

@@ -1,0 +1,23 @@
+{
+  "build": "Builds/Combat-Clarity",
+  "buildSha256": "af88b840e599661ac63fc10ae27ac77dd97cd46b44df8a7ce60eb0dcfacfc99e",
+  "assemblySha256": "dad565dc48620dd2e837e18ee18fe12cc5e1746ea4c0c4ecfc14e2fe8e67ae53",
+  "reports": {
+    "playtest": "outputs/Combat-Clarity/Playtest-Release/playtest-report.json",
+    "campaign": "outputs/Combat-Clarity/Campaign-Release/campaign-report.json",
+    "vitals": "outputs/Combat-Clarity/Vitals-Release/vitals-report.json",
+    "rating": "outputs/Combat-Clarity/Rating-Release/rating-report.json",
+    "escape": "outputs/Combat-Clarity/Escape-Release/escape-report.json",
+    "tactical": "outputs/Combat-Clarity/Tactical-Release/tactical-report.json",
+    "clarity": "outputs/Combat-Clarity/Clarity-Release/clarity-report.json",
+    "input": "outputs/Combat-Clarity/Input-Release/input-report.json",
+    "stress": "outputs/Combat-Clarity/Stress-Release/stress-report.json"
+  },
+  "provenance": "567 PASS từ chín suite chạy trên cùng build-03 0.11.1, DLL SHA256 dad565dc48620dd2e837e18ee18fe12cc5e1746ea4c0c4ecfc14e2fe8e67ae53. Mọi source C# khớp release-source-audit.json. Không cộng kết quả build chẩn đoán, sáu lượt bot hoặc các phiên bản cũ.",
+  "limitations": [
+    "Clarity kiểm terminal state/laser/UI và né kéo-laser bằng Update đầy đủ, không bảo vệ tàu, lướt đang hồi. Input dùng chuột/phím thật trên Player, gồm bấm đúp và P/Esc.",
+    "Stress có bảo vệ tàu: 3 boss +25 tàu, súng tối đa; ghi đỉnh theo frame 142 projectile /28 địch /1 world. Sau warm-up: 673 frame, 60,02FPS, p99 16,68ms, max 16,68ms, không frame >33ms. Chỉ áp dụng máy/cảnh đo hiện tại.",
+    "Sáu lượt bot màn4 không bất tử đều thua trước phản công; không cạn đạn và không kịp dùng Q. Không dùng kết quả này để kết luận tác dụng Q hay cân bằng hull. Chưa xác nhận cân bằng chơi tay 13 màn; xem BALANCE-NOTES.md.",
+    "Lượt UI thường có quan sát/input chậm và thua sớm; chỉ là xác nhận luồng thao tác, không phải dữ liệu người chơi. Thông số HP/damage/spawn/module của0.11.0 được giữ trong0.11.1."
+  ]
+}
