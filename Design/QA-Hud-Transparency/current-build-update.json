@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "currentBuild": "D:\\Projects\\IonFrontier\\Builds\\Combat-Clarity",
+  "archive": "D:\\Projects\\IonFrontier\\Builds\\Archive\\Combat-Clarity-0.11.1-Original",
+  "originalFilesPreserved": 171,
+  "currentFilesVerified": 175,
+  "assemblySha256": "32bbe8ab48df765876cf9fb4fb464d672d409a03b7f02333b40a0ec422365467",
+  "matchesTestedHudBuild": true,
+  "checks": 67,
+  "original567ChecksNotReused": true,
+  "playerSaveUntouched": true
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "HUD transparency visual patch after0.11.1",
+  "passed": true,
+  "buildLog": "outputs/Hud-Transparency/build.log",
+  "report": "outputs/Hud-Transparency/Visual-QA/backdrop-report.json",
+  "checks": 67,
+  "errors": [],
+  "sourceChanges": [
+    "Assets/IonFrontier/Scripts/IonHud.cs"
+  ],
+  "sourceSha256": "091203cd65b51c1e82951a5a966534468ab1b730abc1976a01b2cc3c716acb10",
+  "assemblySha256": "32bbe8ab48df765876cf9fb4fb464d672d409a03b7f02333b40a0ec422365467",
+  "allOtherUnityFilesUnchanged": true,
+  "historical567ChecksNotRerun": true
+}
