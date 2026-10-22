@@ -22,4 +22,11 @@ New original PNGs are in Assets/IonFrontier/Art/Fleet. Their generation prompts,
 
 Hỏa Phượng, Ảnh Vũ, Từ Long, Tinh Vân and Hư Không are five additional original RGBA PNGs in `Assets/IonFrontier/Art/Fleet/Nguoi-choi` (04–08). Generated with the built-in image_gen tool, one call per final asset; copied without raster edits. All five retain true transparent pixels. `ArtSource/Expansion/manifest.json` records names, source paths and SHA-256; `PROMPTS.md` records the generation specs. The fleet now references eight player sprites and ten hostile base sprites. Expanded bosses reuse/combine the existing enemy art with subsystem sprites and procedural effects; this update does not claim ten newly painted boss PNGs.
 
-Asteroids, station nodes, rescue beacons and mines have distinct runtime textures. Objective textures are separate from pickup icons. Background tint, nebula clouds and star speed change with the selected mission.
+In0.5.0, asteroids, station nodes, rescue beacons and mines had distinct runtime textures. Subsequent releases replaced mission prop models and sector backgrounds as described below.
+
+## Current asset library (0.11.1)
+
+- `Art/HostileFleet`:12additional regular ships and16distinct boss PNGs, with prompts/manifests/receipts under `ArtSource/HostileFleet`. The earlier composite-boss description above is historical; current bosses reference these independent sprites through FleetLibrary.
+- `Art/MissionProps`:7original transparent ImageGen PNGs for rock/mine/generator/beacon/control core/convoy/tether. Provenance and SHA256 are under `ArtSource/MissionProps`.
+- `Art/SectorBackgrounds`:13original opaque sector paintings, one per stage; prompts, receipts, SHA256 and gallery are under `ArtSource/SectorBackgrounds`. `IonBackdrop` layers procedural motion over these images.
+- All original PNG bytes and Unity GUIDs are preserved. Pickup icons, bullet effects, nine module UI icons and rating stars remain code-native visuals. Module icons are drawn by `IonModuleIcon`; no new bitmap dependency was introduced in0.11.1.

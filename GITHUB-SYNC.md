@@ -23,3 +23,24 @@ README chính trên GitHub vẫn mô tả bản khởi đầu; README đầy đ�
 - Chia thành 5 commit theo nhóm, không đưa build/export/cache/lưu người chơi hoặc thông tin xác thực lên repo.
 - Kiểm tra cặp PNG/meta, GUID, SHA-256 theo manifest (nếu có) và tài liệu giấy phép font trước khi push.
 - Không chạy Unity/game cho tác vụ đồng bộ file.
+
+## Đồng bộ0.11.1 — 22/10/2026
+
+Theo yêu cầu mới, đồng bộ đủ source/tài nguyên cần để mở project Unity0.11.1, chia10commit nhỏ trên main của repo private. Phần “còn ở máy” phía trên mô tả lịch sử đợt21/10, không còn là phạm vi hiện tại sau đợt này.
+
+1. Bổ sung ignore cho cache công cụ Python.
+2. Bảy mô hình vật thể nhiệm vụ và Unity metadata.
+3. Nền riêng màn1–4 và metadata.
+4. Nền riêng màn5–8 và metadata.
+5. Nền riêng màn9–13 và metadata.
+6. Prompt, receipts, manifest và gallery nguồn hình mới.
+7. Toàn bộ tích hợp Unity0.11.1: runtime, các harness phụ thuộc, FleetLibrary, scene, editor build và ProjectSettings. Các partial class/hook phải đi cùng nhau để tránh thiếu kiểu/phương thức sau clone; nhóm code có dung lượng nhỏ hơn nhóm hình.
+8. Công cụ đóng gói hiện tại và đặc tả/bàn giao/review/triển khai.
+9. Bản chụp báo cáo567PASS, frame metrics và khảo sát cân bằng ở Design/QA-0.11.1.
+10. README, handbook, campaign, nguồn tài nguyên và bản ghi đồng bộ này.
+
+Không đưa Build/ZIP, Library/Temp/Logs, profile/best, LOCAL-NOTES, AGENTS, cache Python hoặc ảnh QA/package script lịch sử chưa chọn lên repo. Các bản Windows0.11.0/0.11.1 ở máy giữ nguyên. Không chạy Unity/game trong đợt quản lý file này.
+
+Preflight kiểm hash source, PNG/manifest, cặp meta/GUID, các tham chiếu scene/library và nội dung nhạy cảm trước push. Sau mỗi phần kiểm remote main đúng commit vừa push, không force-push. Audit commit/hash/scope được lưu local tại LOCAL-NOTES/GitHub-Sync-2026-10-22.
+
+README có hướng dẫn clone/open/build. Đây là bản sao lưu source0.11.1; không phát hành ZIP qua GitHub Releases. Cân bằng chơi tay13màn vẫn chưa được xác nhận; xem Design/QA-0.11.1/BALANCE-NOTES.md.
