@@ -23,3 +23,7 @@ ion-build.*
 .idea/
 *.user
 *.suo
+
+# Python tooling cache
+__pycache__/
+*.py[cod]
