@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c824d8fb69646b89eea8cd879320ae0, type: 3}
+  m_Name: FleetLibrary
+  m_EditorClassIdentifier: 
+  playerShips:
+  - {fileID: 21300000, guid: 6fdd4a0979de4664af4518012777d126, type: 3}
+  - {fileID: 21300000, guid: 2b394e36592d438aa1f4b587e24843d9, type: 3}
+  - {fileID: 21300000, guid: ebe6e299f50041ab8b8e61ca8aee5d72, type: 3}
+  - {fileID: 21300000, guid: 80ec51bbd5f54f74aaa9902b2df7668a, type: 3}
+  - {fileID: 21300000, guid: 18074d8e8a034717967ba41b7594595b, type: 3}
+  - {fileID: 21300000, guid: 36dbf9b431ea4a34915456e7a8068f00, type: 3}
+  - {fileID: 21300000, guid: 9e3be5dcadc04c5c9a2796d89e3b6dd1, type: 3}
+  - {fileID: 21300000, guid: 9e803bca8fb34be5b16886b7175da564, type: 3}
+  enemyShips:
+  - {fileID: 21300000, guid: 2505e71014944417b186666572aed25b, type: 3}
+  - {fileID: 21300000, guid: f6d32f93194349509a308f601d9daea8, type: 3}
+  - {fileID: 21300000, guid: ef9b4106161d4b239c7b4cd30ff826dc, type: 3}
+  - {fileID: 21300000, guid: db47eb1a501642e59bedd6b43e9a2ff9, type: 3}
+  - {fileID: 21300000, guid: 0d7c125bd8764b5db94863011cac3898, type: 3}
+  - {fileID: 21300000, guid: 18e27ccffe5d481a963671980c876210, type: 3}
+  - {fileID: 21300000, guid: f5ea622d2fab414cb1af5dbc034adeaa, type: 3}
+  - {fileID: 21300000, guid: ab1f3cdb3854440d9004766552150999, type: 3}
+  - {fileID: 21300000, guid: 732f740adf084f1280d3a60e4cb38edc, type: 3}
+  - {fileID: 21300000, guid: 50858c29e9cc4b74b613686fc1d60a32, type: 3}
+  reinforcements:
+  - {fileID: 21300000, guid: 4082c69df2d74a9488eb544599a392a1, type: 3}
+  - {fileID: 21300000, guid: c1546f15d96848a8920da5402c8b18af, type: 3}
+  - {fileID: 21300000, guid: 4fe9281e2f354b45a1466f566c098b2d, type: 3}
+  - {fileID: 21300000, guid: f7016fd8b7f6497b99c2b0d425839fcd, type: 3}
+  - {fileID: 21300000, guid: 560864f2fdeb4c0198c3f70cda315010, type: 3}
+  - {fileID: 21300000, guid: 95bc28b6a335484396d54f2875cbf315, type: 3}
+  - {fileID: 21300000, guid: a0d2b52855da40279dc5b191af0d7a7f, type: 3}
+  - {fileID: 21300000, guid: 86237cd970514a22804ef65b6e44e42e, type: 3}
+  - {fileID: 21300000, guid: 9b6142f030ea4a1094f56ba98456f5b7, type: 3}
+  - {fileID: 21300000, guid: 38a76c1d097c4b0894633472fb533063, type: 3}
+  - {fileID: 21300000, guid: 538f0906dd494fb4934c69ce0cfaea21, type: 3}
+  - {fileID: 21300000, guid: 7fabfded380a44518723a547a2644675, type: 3}
+  bossFleet:
+  - {fileID: 21300000, guid: d16d2de96c3d46cb9b86f676fe352cd6, type: 3}
+  - {fileID: 21300000, guid: 793f4160c27c4764b8ccd20bb5d03417, type: 3}
+  - {fileID: 21300000, guid: 4f7d7a71aa22412a8aca09291e9b2d99, type: 3}
+  - {fileID: 21300000, guid: d97f3c606fce41f491270a8e1c7252c0, type: 3}
+  - {fileID: 21300000, guid: 1f2229fc54aa47c08756c17737254b16, type: 3}
+  - {fileID: 21300000, guid: 470cf678b42d4e639b5a2cf5ff770928, type: 3}
+  - {fileID: 21300000, guid: bfef65ba408f44b38709464d4ba3289c, type: 3}
+  - {fileID: 21300000, guid: b6cc774263b34dddb975262eb4982e6e, type: 3}
+  - {fileID: 21300000, guid: d028eda4bd5a452480736bce19ed3cb8, type: 3}
+  - {fileID: 21300000, guid: 0a88c2a745e04019aacc5d2d305feca0, type: 3}
+  - {fileID: 21300000, guid: f993ee5982424ec7964e1ade731175cf, type: 3}
+  - {fileID: 21300000, guid: 605190a183f74382b6d45f058b519f2a, type: 3}
+  - {fileID: 21300000, guid: ce32db94916948b9860ebb6229b3680d, type: 3}
+  - {fileID: 21300000, guid: d25edcde3201446186f9ecb44e5c40bf, type: 3}
+  - {fileID: 21300000, guid: 212da8b6095f4161806b2ba2dec77977, type: 3}
+  - {fileID: 21300000, guid: e1c1ab27c99a433685410e1eed90cca5, type: 3}
+  missionProps:
+  - {fileID: 21300000, guid: b6a20e1e78284505874fa3b8a7393f59, type: 3}
+  - {fileID: 21300000, guid: b13c552f9cb246b191d0b5acf0bbda98, type: 3}
+  - {fileID: 21300000, guid: 70d9c054082842f9be1fc5e9d7aa949f, type: 3}
+  - {fileID: 21300000, guid: dda0fbc9acc74c9db886fe07cb17e396, type: 3}
+  - {fileID: 21300000, guid: 20f2cf1d3b9c44e4a29971543fd4f41d, type: 3}
+  - {fileID: 21300000, guid: 6a722068a67e40339863d0d0eab9195d, type: 3}
+  - {fileID: 21300000, guid: 274c78fd743047208406bbd8e7440e3e, type: 3}
+  stageBackdrops:
+  - {fileID: 21300000, guid: a788fd911f5c4572adc219bdb65163ac, type: 3}
+  - {fileID: 21300000, guid: 7668762d2b314803b472827c71aebef5, type: 3}
+  - {fileID: 21300000, guid: f43e500eb026401ab049ce2e5217ab0c, type: 3}
+  - {fileID: 21300000, guid: 9c4c6df2c3db4ff0b0d6af02a95817b2, type: 3}
+  - {fileID: 21300000, guid: 3f264bfcdd5e45e8b17f2974ca53bad1, type: 3}
+  - {fileID: 21300000, guid: 981506771eda48c4a9c879f31157f032, type: 3}
+  - {fileID: 21300000, guid: f4a0dc7c5b3741b1bbe81fa176106d3c, type: 3}
+  - {fileID: 21300000, guid: 5d88131382814e1bbaa0c3efc84743b0, type: 3}
+  - {fileID: 21300000, guid: 156a34f820e34fa0aa80b4bdeac940d4, type: 3}
+  - {fileID: 21300000, guid: 106dbc29721341a0b1e396c71ecd8569, type: 3}
+  - {fileID: 21300000, guid: 5c4afbeadf91479abbcd5a579823b97d, type: 3}
+  - {fileID: 21300000, guid: bb3840c890da467eab9e402e01955251, type: 3}
+  - {fileID: 21300000, guid: 8f6293e6a6d7415899f73606aede88ac, type: 3}
