@@ -44,3 +44,7 @@ Không đưa Build/ZIP, Library/Temp/Logs, profile/best, LOCAL-NOTES, AGENTS, ca
 Preflight kiểm hash source, PNG/manifest, cặp meta/GUID, các tham chiếu scene/library và nội dung nhạy cảm trước push. Sau mỗi phần kiểm remote main đúng commit vừa push, không force-push. Audit commit/hash/scope được lưu local tại LOCAL-NOTES/GitHub-Sync-2026-10-22.
 
 README có hướng dẫn clone/open/build. Đây là bản sao lưu source0.11.1; không phát hành ZIP qua GitHub Releases. Cân bằng chơi tay13màn vẫn chưa được xác nhận; xem Design/QA-0.11.1/BALANCE-NOTES.md.
+
+## Cập nhật HUD sau0.11.1
+
+Theo yêu cầu cập nhật tiếp của người dùng: đồng bộ IonHud trong suốt, launcher gốc project, hướng dẫn đường dẫn chơi cố định và bằng chứng67BackdropPASS tại Design/QA-Hud-Transparency. Chia3commit nhỏ: sửa giao diện, launcher/tài liệu và QA. Build local ở Builds/Combat-Clarity được cập nhật bằng payload đã kiểm tra; bản0.11.1 gốc giữ nguyên ở Builds/Archive/Combat-Clarity-0.11.1-Original. Không đưa build/ZIP lên Git hoặc gán567check lịch sử cho DLL mới.

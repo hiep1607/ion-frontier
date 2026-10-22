@@ -7,12 +7,14 @@ Bản mô tả đầy đủ: [GAME-HANDBOOK-VI.md](GAME-HANDBOOK-VI.md) — game
 ## Chơi và mở project
 
 - Repo private đã có đủ source và tài nguyên0.11.1. Clone repo bằng tài khoản được cấp quyền, cài Unity6000.6.2f1 qua Unity Hub rồi mở thư mục chứa `Assets`, `Packages`, `ProjectSettings`. Chờ Unity nhập tài nguyên, mở scene và nhấn Play.
-- Bản Windows: `Builds/Combat-Clarity/IonFrontier.exe`. Giữ nguyên các thư mục và DLL đi kèm.
+- Bản Windows hiện tại: `Builds/Combat-Clarity/IonFrontier.exe`, đã cập nhật HUD trong suốt. Có thể mở `Choi-game.cmd` hoặc `Choi-thu-mo-tat-ca.cmd` ở gốc project để dùng đường dẫn cố định này. Giữ nguyên các thư mục và DLL đi kèm.
 - Unity Hub → Add project from disk → chọn thư mục project này.
 - Scene chính: `Assets/IonFrontier/Scenes/Flight.unity`.
 - Trong Unity chọn **Ion Frontier → Build Windows** để xuất tại `Builds/Windows`.
 
 Build/ZIP, Library, log và lưu người chơi không nằm trong Git. Báo cáo nghiệm thu được lưu riêng ở [Design/QA-0.11.1](Design/QA-0.11.1/README.md); xem [GITHUB-SYNC.md](GITHUB-SYNC.md) để biết phạm vi đồng bộ từng phần.
+
+Chỉnh HUD sau0.11.1: bảng nhiệm vụ, đường thoát và mục tiêu có nền18–22%, chữ giữ nguyên độ rõ với viền tối mảnh, chữ phụ sáng/lớn hơn. Bản đã kiểm tra tại `Builds/Hud-Transparency` được cập nhật vào đường dẫn chơi cố định `Builds/Combat-Clarity`. Bản0.11.1 gốc lưu nguyên vẹn ở `Builds/Archive/Combat-Clarity-0.11.1-Original`; bản thử nghiệm0.11.0 và ZIP cũ giữ nguyên. Có67kiểm tra backdrop/ảnh Player ở `outputs/Hud-Transparency`; đây là đợt kiểm tra giao diện, không cộng vào567check của bản phát hành gốc. Các launcher là tiện ích local; sau clone, dùng Unity để Play/build nếu chưa có bản Windows.
 
 ## Chương mở đầu
 
