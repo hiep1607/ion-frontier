@@ -79,18 +79,19 @@ namespace IonFrontier
         }
         void MakeMissionInterface()
         {
-            missionPanel=Panel("Mission orders",flight.transform,new Color(.01f,.03f,.06f,.85f));
+            missionPanel=Panel("Mission orders",flight.transform,new Color(.01f,.03f,.06f,.22f));
             var r=(RectTransform)missionPanel.transform;r.anchorMin=r.anchorMax=new Vector2(0,1);r.anchoredPosition=new Vector2(290,-190);r.sizeDelta=new Vector2(540,150);
             missionTitle=Label("",missionPanel.transform,18,IonArt.Cyan,Vector2.one*.5f,new Vector2(0,48),new Vector2(510,32));
             missionBody=Label("",missionPanel.transform,17,text,Vector2.one*.5f,new Vector2(0,4),new Vector2(510,60));missionBody.horizontalOverflow=HorizontalWrapMode.Wrap;
-            missionTip=Label("",missionPanel.transform,13,muted,Vector2.one*.5f,new Vector2(0,-49),new Vector2(510,38));missionTip.horizontalOverflow=HorizontalWrapMode.Wrap;
-            escapePanel=Panel("Escape route progress",flight.transform,new Color(.015f,.035f,.06f,.92f));
+            missionTip=Label("",missionPanel.transform,14,muted,Vector2.one*.5f,new Vector2(0,-49),new Vector2(510,38));missionTip.horizontalOverflow=HorizontalWrapMode.Wrap;
+            escapePanel=Panel("Escape route progress",flight.transform,new Color(.015f,.035f,.06f,.18f));
             r=(RectTransform)escapePanel.transform;r.anchorMin=r.anchorMax=new Vector2(.5f,1);r.anchoredPosition=new Vector2(30,-134);r.sizeDelta=new Vector2(540,86);
             escapeTitle=Label("",escapePanel.transform,16,IonArt.Cyan,Vector2.one*.5f,new Vector2(0,22),new Vector2(520,32),TextAnchor.MiddleCenter);
             Bar(escapePanel.transform,Vector2.one*.5f,new Vector2(0,-12),new Vector2(500,12),new Color(.12f,.22f,.28f));
             escapeFill=Bar(escapePanel.transform,Vector2.one*.5f,new Vector2(-250,-12),new Vector2(0,12),IonArt.Cyan);escapeFill.rectTransform.pivot=new Vector2(0,.5f);
             for(int i=1;i<3;i++)Bar(escapePanel.transform,Vector2.one*.5f,new Vector2(-250+500*i/3f,-12),new Vector2(2,20),new Color(.65f,.8f,.9f,.65f));
             escapeShip=Bar(escapePanel.transform,Vector2.one*.5f,new Vector2(-250,-12),new Vector2(23,28),Color.white);escapeShip.preserveAspect=true;
+            MakeOverlayTextReadable(missionPanel);MakeOverlayTextReadable(escapePanel);
             for(int i=0;i<worldLabels.Length;i++)
             {
                 worldLabels[i]=Label("",flight.transform,14,text,Vector2.zero,Vector2.zero,new Vector2(250,40),TextAnchor.MiddleCenter);
@@ -122,15 +123,26 @@ namespace IonFrontier
         }
         void MakeTargetInterface()
         {
-            targetPanel=Panel("Attack target details",flight.transform,new Color(.015f,.035f,.06f,.94f));
+            targetPanel=Panel("Attack target details",flight.transform,new Color(.015f,.035f,.06f,.22f));
             var r=(RectTransform)targetPanel.transform;r.anchorMin=r.anchorMax=new Vector2(1,1);r.anchoredPosition=new Vector2(-245,-205);r.sizeDelta=new Vector2(450,180);
-            Label("MỤC TIÊU ĐANG BỊ TẤN CÔNG",targetPanel.transform,13,muted,Vector2.one*.5f,new Vector2(0,69),new Vector2(420,24));
+            Label("MỤC TIÊU ĐANG BỊ TẤN CÔNG",targetPanel.transform,14,muted,Vector2.one*.5f,new Vector2(0,69),new Vector2(420,24));
             targetPortrait=Bar(targetPanel.transform,Vector2.one*.5f,new Vector2(-165,-2),new Vector2(88,105),Color.white);targetPortrait.preserveAspect=true;
             targetName=Label("",targetPanel.transform,17,IonArt.Cyan,Vector2.one*.5f,new Vector2(58,38),new Vector2(300,32));
             targetHealth=Label("",targetPanel.transform,17,text,Vector2.one*.5f,new Vector2(58,6),new Vector2(300,28));
             Bar(targetPanel.transform,Vector2.one*.5f,new Vector2(52,-20),new Vector2(280,6),new Color(.12f,.2f,.25f));
             targetFill=Bar(targetPanel.transform,Vector2.one*.5f,new Vector2(-88,-20),new Vector2(280,6),IonArt.Orange);targetFill.rectTransform.pivot=new Vector2(0,.5f);
-            targetState=Label("",targetPanel.transform,12,muted,Vector2.one*.5f,new Vector2(58,-49),new Vector2(300,38));targetState.horizontalOverflow=HorizontalWrapMode.Wrap;
+            targetState=Label("",targetPanel.transform,14,muted,Vector2.one*.5f,new Vector2(58,-49),new Vector2(300,38));targetState.horizontalOverflow=HorizontalWrapMode.Wrap;
+            MakeOverlayTextReadable(targetPanel);
+        }
+        void MakeOverlayTextReadable(GameObject panel)
+        {
+            // Fade only the panel image; keep text, portraits and HP/progress fills fully visible.
+            foreach(var label in panel.GetComponentsInChildren<Text>(true))
+            {
+                if(label.color==muted)label.color=new Color(.74f,.85f,.93f,1);
+                var outline=label.gameObject.AddComponent<Outline>();
+                outline.effectColor=new Color(0,0,0,.95f);outline.effectDistance=new Vector2(1.1f,-1.1f);
+            }
         }
         void TickTarget()
         {
