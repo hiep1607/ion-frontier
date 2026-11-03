@@ -1,4 +1,8 @@
 @echo off
+if not exist "%~dp0Builds\Cinematic-Menu\IonFrontier.exe" goto legacy
+start "ION FRONTIER NEXT" /D "%~dp0Builds\Cinematic-Menu" "%~dp0Builds\Cinematic-Menu\IonFrontier.exe" -ion-unlocked
+exit /b
+:legacy
 if not exist "%~dp0Builds\Combat-Clarity\IonFrontier.exe" goto missing
 start "ION FRONTIER - Preview" /D "%~dp0Builds\Combat-Clarity" "%~dp0Builds\Combat-Clarity\IonFrontier.exe" -ion-unlocked
 exit /b

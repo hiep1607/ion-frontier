@@ -1,0 +1,46 @@
+{
+  "version": "0.12.0",
+  "title": "Ion Frontier Next - Cinematic Menu",
+  "passed": true,
+  "totalChecks": 285,
+  "reports": {
+    "Menu": {
+      "passed": true,
+      "checks": 111,
+      "path": "outputs\\Cinematic-Menu\\Menu\\menu-report.json",
+      "reportSha256": "a203259d2f82779e02ae4d0b932596b71100edf31587557458a54b5c0b41ba93"
+    },
+    "Regression": {
+      "passed": true,
+      "checks": 107,
+      "path": "outputs\\Cinematic-Menu\\Regression\\playtest-report.json",
+      "reportSha256": "f344700370ae0131e2c16a10ef481b15438d1d83d02a3ca8413fa3799f1c8a42"
+    },
+    "Backdrop": {
+      "passed": true,
+      "checks": 67,
+      "path": "outputs\\Cinematic-Menu\\Backdrop\\backdrop-report.json",
+      "reportSha256": "653327002632ccaf8348cea843a6b7a3ba68112655a6298bab63596c91f4d23e"
+    }
+  },
+  "assemblySha256": "e52e7e1d705b3ad988b5f72b6ec32a73948ee3c6b42be73794d52d82c0eda6a5",
+  "exeSha256": "af88b840e599661ac63fc10ae27ac77dd97cd46b44df8a7ce60eb0dcfacfc99e",
+  "unityVersion": "6000.6.2f1",
+  "sourceAssetSettingsFilesVerified": 271,
+  "originalProjectFilesVerifiedUnchanged": 409,
+  "originalProject": "D:\\Projects\\IonFrontier",
+  "workingProject": "D:\\Projects\\IonFrontier-Next",
+  "regularLauncher": "Choi-game.cmd",
+  "previewLauncher": "Choi-thu-mo-tat-ca.cmd",
+  "playerBuild": "Builds/Cinematic-Menu/IonFrontier.exe",
+  "realProfileUnchangedDuringMenuQA": true,
+  "captureMethod": "Unity Camera.Render + ScreenSpaceCamera canvas to RenderTexture; temporary capture-only canvas mode, restored afterward. No OS mouse/keyboard input is claimed.",
+  "physicalOsInputVerified": false,
+  "physicalOsInputLimitation": "Computer-use SendInput returned GetLastError=87 and subsequent input was blocked by a user-input guard. Unity pointer raycast/submit events were tested; physical keys are not claimed.",
+  "gameplayBalanceChanged": false,
+  "createdAtUtc": "2026-10-31T19:34:38.703370+00:00",
+  "historicalResultsNotReused": [
+    "567 checks of original 0.11.1",
+    "67 checks of earlier HUD-only build"
+  ]
+}

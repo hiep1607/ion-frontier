@@ -106,6 +106,8 @@ namespace IonFrontier
         {
             Application.targetFrameRate=120; QualitySettings.vSyncCount=1;
             Time.fixedDeltaTime=1f/60; random=new System.Random(479);
+            bool menuTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-menu-test")>=0;
+            if(menuTest){Application.runInBackground=true;gameObject.AddComponent<IonMenuTest>();}
             bool clarityTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-clarity-test")>=0;bool balanceTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-balance-test")>=0;
             if(clarityTest){Application.runInBackground=true;gameObject.AddComponent<IonClarityTest>();}if(balanceTest){Application.runInBackground=true;gameObject.AddComponent<IonBalanceTest>();}
             bool tacticalTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-tactical-test")>=0;if(tacticalTest){Application.runInBackground=true;gameObject.AddComponent<IonTacticalTest>();}
@@ -128,8 +130,9 @@ namespace IonFrontier
             profilePath=System.IO.Path.Combine(Application.persistentDataPath,playtest?"playtest-profile-v2.json":"pilot-profile-v2.json");
             bool campaignTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-campaign-test")>=0||vitalsTest||backgroundTest||escapeTest||ratingTest||tacticalTest||clarityTest||balanceTest;
             if(campaignTest)profilePath=System.IO.Path.Combine(Application.persistentDataPath,clarityTest?"clarity-test-profile.json":balanceTest?"balance-test-profile.json":tacticalTest?"tactical-test-profile.json":ratingTest?"rating-test-profile.json":escapeTest?"escape-test-profile.json":backgroundTest?"backdrop-test-profile.json":vitalsTest?"vitals-test-profile.json":"campaign-test-profile.json");
-            profile=playtest||campaignTest?new PilotProfile():IonCampaign.Load(profilePath);
-            SessionUnlocked=!playtest&&!campaignTest&&Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-unlocked")>=0;
+            if(menuTest)profilePath=System.IO.Path.Combine(Application.temporaryCachePath,"menu-test-"+Guid.NewGuid().ToString("N")+".json");
+            profile=playtest||campaignTest||menuTest?new PilotProfile():IonCampaign.Load(profilePath);
+            SessionUnlocked=!playtest&&!campaignTest&&!menuTest&&Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-unlocked")>=0;
             if(SessionUnlocked)
             {
                 // This launch gets its own disposable profile; the real campaign save is never overwritten.
@@ -137,7 +140,7 @@ namespace IonFrontier
                 profile=new PilotProfile{clearedStages=IonCampaign.Stages,tutorialDone=true};
             }
             bestPath=System.IO.Path.Combine(Application.persistentDataPath,playtest?"playtest-best.txt":"best-score.txt");
-            if(SessionUnlocked)bestPath=System.IO.Path.ChangeExtension(profilePath,"best.txt");
+            if(SessionUnlocked||menuTest)bestPath=System.IO.Path.ChangeExtension(profilePath,"best.txt");
             if(campaignTest)bestPath=System.IO.Path.Combine(Application.persistentDataPath,clarityTest?"clarity-test-best.txt":balanceTest?"balance-test-best.txt":tacticalTest?"tactical-test-best.txt":ratingTest?"rating-test-best.txt":escapeTest?"escape-test-best.txt":backgroundTest?"backdrop-test-best.txt":vitalsTest?"vitals-test-best.txt":"campaign-test-best.txt");
             try { if(System.IO.File.Exists(bestPath)&&int.TryParse(System.IO.File.ReadAllText(bestPath),out int saved))Best=saved; } catch(System.IO.IOException) { Best=0; }
             hud=new GameObject("Flight interface").AddComponent<IonHud>(); hud.Initialize(this);
@@ -247,14 +250,13 @@ namespace IonFrontier
 
         void Update()
         {
-            if(Input.GetKeyDown(KeyCode.M)) ToggleAudio();
-            if(Input.GetKeyDown(KeyCode.Escape)||Input.GetKeyDown(KeyCode.P)) TogglePause();
             if(State==FlightState.Menu)
             {
-                if(Input.GetKeyDown(KeyCode.Alpha1))SelectHull(0);if(Input.GetKeyDown(KeyCode.Alpha2))SelectHull(1);if(Input.GetKeyDown(KeyCode.Alpha3))SelectHull(2);
-                for(int i=3;i<8;i++)if(Input.GetKeyDown((KeyCode)((int)KeyCode.Alpha1+i)))SelectHull(i);
-                if(Input.GetKeyDown(KeyCode.Return))BeginRun();
+                hud.HandleMenuInput();view.transform.position=new Vector3(0,0,-10);return;
             }
+            if(hud.HandleInformationInput())return;
+            if(Input.GetKeyDown(KeyCode.M)) ToggleAudio();
+            if(Input.GetKeyDown(KeyCode.Escape)||Input.GetKeyDown(KeyCode.P)) TogglePause();
             if((State==FlightState.Defeat||State==FlightState.Victory)&&Input.GetKeyDown(KeyCode.R)) BeginRun();
             if(State==FlightState.Playing&&Input.GetKeyDown(KeyCode.F)) ToggleAuto();
             if(State==FlightState.Playing&&Input.GetKeyDown(KeyCode.Q))UseUltimate();

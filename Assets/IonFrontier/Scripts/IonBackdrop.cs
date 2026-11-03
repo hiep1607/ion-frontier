@@ -60,7 +60,7 @@ namespace IonFrontier
         void Update()
         {
             if(sky==null)return;int next=Mathf.Clamp(game.Sector-1,0,12);if(next!=theme)SetTheme(next);
-            FitCamera();if(game.State==FlightState.Paused||game.State==FlightState.UpgradeChoice)return;
+            FitCamera();if(game.State==FlightState.Paused||game.State==FlightState.UpgradeChoice||game.State==FlightState.Menu&&game.ReducedMenuMotion)return;
             float dt=Mathf.Min(Time.unscaledDeltaTime,.05f);float pace=game.State==FlightState.Menu?.35f:game.State==FlightState.StageClear||game.State==FlightState.Victory||game.State==FlightState.Defeat?.18f:1;
             clock+=dt*pace;float motion=(game.EscapeRunActive?2.4f+game.EscapeFraction*1.8f:Motion[theme])*(game.BossActive?.62f:1)*pace;
             combatDim=Mathf.MoveTowards(combatDim,game.BossActive?.72f:1,dt*.28f);

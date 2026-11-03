@@ -1,6 +1,8 @@
-# ION FRONTIER — Chiến đấu rõ ràng · 0.11.1
+> **Bản làm việc mới:** `D:\Projects\IonFrontier-Next`, từ 01/11/2026. Bản gốc giữ nguyên tại `D:\Projects\IonFrontier`. Xem [FORK-INFO.md](FORK-INFO.md).
 
-Game bắn phi thuyền 2D bằng Unity 6.6 / 6000.6.2f1, giao diện tiếng Việt. Project chính: `D:\Projects\IonFrontier`.
+# ION FRONTIER NEXT — Menu điện ảnh · 0.12.0
+
+Game bắn phi thuyền 2D bằng Unity 6.6 / 6000.6.2f1, giao diện tiếng Việt. Project chính: `D:\Projects\IonFrontier-Next`.
 
 Bản mô tả đầy đủ: [GAME-HANDBOOK-VI.md](GAME-HANDBOOK-VI.md) — gameplay, tám phi cơ, địch, 13 màn, boss, vật phẩm và năm sao.
 
@@ -25,6 +27,10 @@ Chỉnh HUD sau0.11.1: bảng nhiệm vụ, đường thoát và mục tiêu có
 | 3 — Thành trì hạm đội | 3 | Thiết Giáp Vương | 240 | Màn 4 / chương mở rộng |
 
 Ba màn trên là chương mở đầu. Hạ boss màn 3 hiện mở màn 4; chỉ hạ kỳ hạm màn 13 mới hoàn tất chiến dịch.
+
+## Giao diện menu mới 0.12.0
+
+Mở `Choi-game.cmd` hoặc `Choi-thu-mo-tat-ca.cmd` ở gốc bản Next để dùng build Menu điện ảnh. Chọn tàu, nhiệm vụ và đọc Cẩm nang ở các mục riêng; màn đầu giữ một tàu và một nút Xuất kích. 285 kiểm tra đạt, phạm vi và giới hạn ghi trong [triển khai menu](Design/CINEMATIC-MENU-0.12.0.md) và [QA0.12.0](Design/QA-0.12.0/TEST-REPORT.json). Các phần0.11.x bên dưới là lịch sử.
 
 ## Sửa luật và phản hồi0.11.1
 

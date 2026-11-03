@@ -49,7 +49,7 @@ public static class IonBuild
         Directory.CreateDirectory("Assets/IonFrontier/Scenes");
         string scenePath="Assets/IonFrontier/Scenes/Flight.unity";EditorSceneManager.SaveScene(scene,scenePath);
         EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene(scenePath,true)};
-        PlayerSettings.companyName="Vanguard Studio";PlayerSettings.productName="ION FRONTIER";PlayerSettings.bundleVersion="0.11.1";
+        PlayerSettings.companyName="Vanguard Studio";PlayerSettings.productName="ION FRONTIER";PlayerSettings.bundleVersion="0.12.0";
         PlayerSettings.SetApplicationIdentifier(UnityEditor.Build.NamedBuildTarget.Standalone,"com.vanguard.ionfrontier");
         PlayerSettings.defaultScreenWidth=1280;PlayerSettings.defaultScreenHeight=720;
         PlayerSettings.fullScreenMode=FullScreenMode.Windowed;PlayerSettings.resizableWindow=true;PlayerSettings.runInBackground=false;
