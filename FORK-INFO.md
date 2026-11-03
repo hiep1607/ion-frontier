@@ -14,3 +14,5 @@ Tên sản phẩm và công ty giữ nguyên nên hai bản chạy bình thườ
 ## Công khai hai bản cập nhật — 03/11/2026
 
 Theo yêu cầu mới, menu0.12.0 và kết quả/phần thưởng0.12.1 được đưa đầy đủ lên nhánh `feature/cinematic-menu-0.12.0` của repo public https://github.com/hiep1607/ion-frontier. Đây là quyết định mới thay thế giới hạn giữ kín hai phần trên trong ghi chú02/11. Main public giữ nguyên. Repo ion-frontier-next vẫn private và là origin của project làm việc. Không đổi visibility hoặc thêm người cộng tác. Build, cache, lưu người chơi và ghi chú máy không công khai.
+
+Cập nhật yêu cầu tiếp cùng ngày03/11: đưa đủ hai thay đổi vào `main` của repo chính public `hiep1607/ion-frontier`. Clone mặc định nhận source0.12.1, gồm cả menu0.12.0. Nhánh feature public vẫn được giữ; origin Next và project gốc không thay đổi.

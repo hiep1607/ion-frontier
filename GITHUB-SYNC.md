@@ -1,3 +1,9 @@
+# Cập nhật main của repo chính — 03/11/2026
+
+Theo yêu cầu sửa lại của người dùng, đưa đầy đủ menu0.12.0 và kết quả/phần thưởng0.12.1 vào [main của hiep1607/ion-frontier](https://github.com/hiep1607/ion-frontier). Main được fast-forward qua hai commit tính năng3c722b4/7543e2e và cập nhật hướng dẫn này; người clone nhánh mặc định nhận source0.12.1. Không force-push, không chạy lại Unity, không đưa build/cache/lưu người chơi lên Git. Project gốc và origin Next private giữ nguyên. Ghi chú giữ main nguyên trạng ngay bên dưới mô tả bước trước khi người dùng sửa yêu cầu.
+
+---
+
 # Công khai menu và phần thưởng — 03/11/2026
 
 Theo yêu cầu người dùng, hai đợt0.12.0 và0.12.1 được công khai tại [hiep1607/ion-frontier, nhánh feature/cinematic-menu-0.12.0](https://github.com/hiep1607/ion-frontier/tree/feature/cinematic-menu-0.12.0). Hai commit nối tiếp main public78ddc72: menu điện ảnh trước, sau đó sửa chân dung tàu vừa lái, sao hiện dần và nhận tàu lần đầu. Đủ Assets/.meta, Packages, ProjectSettings, launcher và tài liệu/QA của cả hai đợt. Main public không thay đổi. Origin local vẫn là repo Next private; project gốc không sửa.

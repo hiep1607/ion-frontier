@@ -8,7 +8,7 @@ Bản mô tả đầy đủ: [GAME-HANDBOOK-VI.md](GAME-HANDBOOK-VI.md) — game
 
 ## Chơi và mở project
 
-- Source và tài nguyên0.12.1 được công khai tại [hiep1607/ion-frontier — feature/cinematic-menu-0.12.0](https://github.com/hiep1607/ion-frontier/tree/feature/cinematic-menu-0.12.0). Clone đúng nhánh này, cài Unity6000.6.2f1 qua Unity Hub rồi mở thư mục chứa `Assets`, `Packages`, `ProjectSettings`. Chờ Unity nhập tài nguyên, mở scene và nhấn Play.
+- Source và tài nguyên0.12.1 được công khai tại [hiep1607/ion-frontier — main](https://github.com/hiep1607/ion-frontier). Clone repo hoặc cập nhật nhánh `main`, cài Unity6000.6.2f1 qua Unity Hub rồi mở thư mục chứa `Assets`, `Packages`, `ProjectSettings`. Chờ Unity nhập tài nguyên, mở scene và nhấn Play.
 - Bản Windows local hiện tại: `Builds/Result-Rewards/IonFrontier.exe`. Hai launcher gốc ưu tiên bản này; sau khi clone source, dùng Unity để Play/build vì Git không chứa bản Windows. Giữ nguyên các thư mục và DLL đi kèm khi sao chép build.
 - Unity Hub → Add project from disk → chọn thư mục project này.
 - Scene chính: `Assets/IonFrontier/Scenes/Flight.unity`.
