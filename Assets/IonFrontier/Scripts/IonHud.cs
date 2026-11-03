@@ -162,26 +162,7 @@ namespace IonFrontier
             Button("TIÊU CHÍ 5 SAO",pause.transform,Vector2.one*.5f,new Vector2(0,-180),new Vector2(360,65),ShowRatingGuide,false);
             Button("VỀ CĂN CỨ",pause.transform,Vector2.one*.5f,new Vector2(0,-270),new Vector2(360,65),game.ReturnToMenu,false);
         }
-        void MakeResult()
-        {
-            result=Panel("Debrief",transform,new Color(.01f,.025f,.05f,.97f));
-            statusTitle=Label("",result.transform,43,text,Vector2.one*.5f,new Vector2(0,350),new Vector2(1450,70),TextAnchor.MiddleCenter);
-            statusBody=Label("",result.transform,19,muted,Vector2.one*.5f,new Vector2(0,275),new Vector2(1400,70),TextAnchor.MiddleCenter);
-            ratingBoard=Panel("Five-star debrief",result.transform,Color.clear);
-            for(int i=0;i<5;i++)
-            {
-                ratingStars[i]=Star(ratingBoard.transform,new Vector2((i-2)*86,197),54,IonArt.Gold);
-                var row=Bar(ratingBoard.transform,Vector2.one*.5f,new Vector2(0,78-i*58),new Vector2(960,53),new Color(.035f,.075f,.1f));
-                ratingRows[i]=Label("",row.transform,17,text,Vector2.one*.5f,new Vector2(-45,10),new Vector2(800,26));
-                ratingValues[i]=Label("",row.transform,14,muted,Vector2.one*.5f,new Vector2(-45,-12),new Vector2(800,24));
-                ratingStates[i]=Label("",row.transform,16,IonArt.Gold,Vector2.one*.5f,new Vector2(408,0),new Vector2(130,35),TextAnchor.MiddleCenter);
-            }
-            ratingSummary=Label("",ratingBoard.transform,17,IonArt.Gold,Vector2.one*.5f,new Vector2(0,140),new Vector2(1000,35),TextAnchor.MiddleCenter);
-            unlockImage=Bar(result.transform,Vector2.one*.5f,new Vector2(-605,10),new Vector2(175,175),Color.white);unlockImage.preserveAspect=true;
-            nextButton=Button("CHỌN TÀU / MÀN TIẾP",result.transform,Vector2.one*.5f,new Vector2(-230,-255),new Vector2(420,60),game.NextStageHangar,true);
-            replayButton=Button("CHƠI LẠI / SĂN 5 SAO",result.transform,Vector2.one*.5f,new Vector2(230,-255),new Vector2(420,60),game.BeginRun,false);
-            Button("VỀ CĂN CỨ",result.transform,Vector2.one*.5f,new Vector2(0,-333),new Vector2(420,54),game.ReturnToMenu,false);
-        }
+        void MakeResult(){MakeRewardResult();}
         IonRatingStar Star(Transform parent,Vector2 position,float size,Color color)
         {
             var go=new GameObject("Rating star",typeof(RectTransform),typeof(IonRatingStar));go.transform.SetParent(parent,false);
@@ -237,25 +218,10 @@ namespace IonFrontier
         {
             bool playing=game.State==FlightState.Playing||game.State==FlightState.Paused||game.State==FlightState.BossDying||game.State==FlightState.UpgradeChoice;
             flight.SetActive(playing);menu.SetActive(game.State==FlightState.Menu);pause.SetActive(game.State==FlightState.Paused);
-            bool clear=game.State==FlightState.StageClear,won=game.State==FlightState.Victory;
-            result.SetActive(clear||won||game.State==FlightState.Defeat);nextButton.SetActive(clear);replayButton.SetActive(true);
-            ((RectTransform)replayButton.transform).anchoredPosition=new Vector2(clear?230:0,-255);
-            ratingBoard.SetActive(clear||won);
-            for(int i=0;i<5;i++)
-            {
-                ratingStars[i].color=i<game.LastStars?IonArt.Gold:new Color(.16f,.24f,.29f);
-                ratingRows[i].text=game.RatingCriterionName(i);ratingValues[i].text=game.LastRatingDetails[i];
-                ratingStates[i].text=game.LastRatingEarned(i)?"+1 SAO":"CHƯA ĐẠT";ratingStates[i].color=game.LastRatingEarned(i)?IonArt.Gold:muted;
-            }
-            ratingSummary.text=game.LastStars+" / 5 SAO  •  TỐT NHẤT "+game.StarsAt(game.Sector)+" / 5"+(game.LastWasNewRating?"  •  THÀNH TÍCH MỚI!":"");
+            RefreshRewardResult();
             if(!playing){banner.SetActive(false);tutorial.SetActive(false);toast.text="";toastTime=0;}
             if(game.State==FlightState.Playing||game.State==FlightState.BossDying){help.SetActive(false);ratingGuide.SetActive(false);}
             RefreshModernMenu();
-            statusTitle.text=clear?"HOÀN THÀNH MÀN "+game.Sector:won?"PHÁ VỠ ĐẾ HẠM":"MẤT TÍN HIỆU";
-            int reward=IonCampaign.RewardHull(game.Sector);
-            statusBody.text=(clear||won?(reward>=0?"NHẬN PHI CƠ "+IonCampaign.HullNames[reward]+" / ":"")+(won?"HOÀN TẤT 13 MÀN!":"ĐÃ MỞ MÀN "+(game.Sector+1)):game.DefeatReason+" Tiến trình mở khóa vẫn được giữ.")+"\nĐIỂM "+game.Score.ToString("D6")+" / KỶ LỤC "+game.Best.ToString("D6");
-            statusBody.horizontalOverflow=HorizontalWrapMode.Wrap;
-            unlockImage.gameObject.SetActive((clear||won)&&reward>=0);if(reward>=0)unlockImage.sprite=IonArt.PlayerShips[reward];
             Tick(0);RefreshTutorial();TickDraftInterface();
         }
         public void Tick(float dt)
@@ -295,7 +261,7 @@ namespace IonFrontier
         }
         void Update()
         {
-            TickModernMenu();
+            TickModernMenu();TickRewardResult();
             if(toastTime>0){toastTime-=Time.unscaledDeltaTime;toast.color=new Color(1,.76f,.34f,Mathf.Clamp01(toastTime));if(toastTime<=0)toast.text="";}
             if(damageTime>0){damageTime-=Time.unscaledDeltaTime;damage.color=new Color(1,.12f,.02f,Mathf.Max(0,damageTime)*.55f);}
             if(blastTime>0&&game.State!=FlightState.Paused){blastTime=Mathf.Max(0,blastTime-Time.unscaledDeltaTime);blast.color=new Color(1,.95f,.85f,blastStrength*Mathf.Clamp01(blastTime/.35f));}

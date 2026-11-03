@@ -1,6 +1,6 @@
 > **Bản làm việc mới:** `D:\Projects\IonFrontier-Next`, từ 01/11/2026. Bản gốc giữ nguyên tại `D:\Projects\IonFrontier`. Xem [FORK-INFO.md](FORK-INFO.md).
 
-# ION FRONTIER NEXT — Menu điện ảnh · 0.12.0
+# ION FRONTIER NEXT — Kết quả & tàu mới · 0.12.1
 
 Game bắn phi thuyền 2D bằng Unity 6.6 / 6000.6.2f1, giao diện tiếng Việt. Project chính: `D:\Projects\IonFrontier-Next`.
 
@@ -8,8 +8,8 @@ Bản mô tả đầy đủ: [GAME-HANDBOOK-VI.md](GAME-HANDBOOK-VI.md) — game
 
 ## Chơi và mở project
 
-- Repo private đã có đủ source và tài nguyên0.11.1. Clone repo bằng tài khoản được cấp quyền, cài Unity6000.6.2f1 qua Unity Hub rồi mở thư mục chứa `Assets`, `Packages`, `ProjectSettings`. Chờ Unity nhập tài nguyên, mở scene và nhấn Play.
-- Bản Windows hiện tại: `Builds/Combat-Clarity/IonFrontier.exe`, đã cập nhật HUD trong suốt. Có thể mở `Choi-game.cmd` hoặc `Choi-thu-mo-tat-ca.cmd` ở gốc project để dùng đường dẫn cố định này. Giữ nguyên các thư mục và DLL đi kèm.
+- Source và tài nguyên0.12.1 được công khai tại [hiep1607/ion-frontier — feature/cinematic-menu-0.12.0](https://github.com/hiep1607/ion-frontier/tree/feature/cinematic-menu-0.12.0). Clone đúng nhánh này, cài Unity6000.6.2f1 qua Unity Hub rồi mở thư mục chứa `Assets`, `Packages`, `ProjectSettings`. Chờ Unity nhập tài nguyên, mở scene và nhấn Play.
+- Bản Windows local hiện tại: `Builds/Result-Rewards/IonFrontier.exe`. Hai launcher gốc ưu tiên bản này; sau khi clone source, dùng Unity để Play/build vì Git không chứa bản Windows. Giữ nguyên các thư mục và DLL đi kèm khi sao chép build.
 - Unity Hub → Add project from disk → chọn thư mục project này.
 - Scene chính: `Assets/IonFrontier/Scenes/Flight.unity`.
 - Trong Unity chọn **Ion Frontier → Build Windows** để xuất tại `Builds/Windows`.
@@ -28,9 +28,13 @@ Chỉnh HUD sau0.11.1: bảng nhiệm vụ, đường thoát và mục tiêu có
 
 Ba màn trên là chương mở đầu. Hạ boss màn 3 hiện mở màn 4; chỉ hạ kỳ hạm màn 13 mới hoàn tất chiến dịch.
 
+## Kết quả và phần thưởng 0.12.1
+
+Đã sửa chân dung tàu vừa dùng, thêm sao hiện lần lượt và popup nhận tàu lần đầu. Mở lại launcher gốc Next để dùng build Result-Rewards. [Triển khai và QA315PASS](Design/RESULT-REWARDS-0.12.1.md).
+
 ## Giao diện menu mới 0.12.0
 
-Mở `Choi-game.cmd` hoặc `Choi-thu-mo-tat-ca.cmd` ở gốc bản Next để dùng build Menu điện ảnh. Chọn tàu, nhiệm vụ và đọc Cẩm nang ở các mục riêng; màn đầu giữ một tàu và một nút Xuất kích. 285 kiểm tra đạt, phạm vi và giới hạn ghi trong [triển khai menu](Design/CINEMATIC-MENU-0.12.0.md) và [QA0.12.0](Design/QA-0.12.0/TEST-REPORT.json). Các phần0.11.x bên dưới là lịch sử.
+Menu điện ảnh được giữ trong bản hiện tại0.12.1. Chọn tàu, nhiệm vụ và đọc Cẩm nang ở các mục riêng; màn đầu giữ một tàu và một nút Xuất kích. 285 kiểm tra đạt, phạm vi và giới hạn ghi trong [triển khai menu](Design/CINEMATIC-MENU-0.12.0.md) và [QA0.12.0](Design/QA-0.12.0/TEST-REPORT.json). Các phần0.11.x bên dưới là lịch sử.
 
 ## Sửa luật và phản hồi0.11.1
 

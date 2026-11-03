@@ -1,3 +1,11 @@
+# Công khai menu và phần thưởng — 03/11/2026
+
+Theo yêu cầu người dùng, hai đợt0.12.0 và0.12.1 được công khai tại [hiep1607/ion-frontier, nhánh feature/cinematic-menu-0.12.0](https://github.com/hiep1607/ion-frontier/tree/feature/cinematic-menu-0.12.0). Hai commit nối tiếp main public78ddc72: menu điện ảnh trước, sau đó sửa chân dung tàu vừa lái, sao hiện dần và nhận tàu lần đầu. Đủ Assets/.meta, Packages, ProjectSettings, launcher và tài liệu/QA của cả hai đợt. Main public không thay đổi. Origin local vẫn là repo Next private; project gốc không sửa.
+
+QA đã chạy ở các đợt triển khai:0.12.0 có285PASS,0.12.1 có315PASS. Đây là các báo cáo theo từng build, không cộng dồn và không chạy lại Unity trong tác vụ Git. Source Unity được đối chiếu nguyên vẹn trước/sau. Không đưa Build/ZIP, cache, profile thật, AGENTS.md hay LOCAL-NOTES lên nhánh public. Các bản ghi bên dưới là lịch sử, bao gồm tên/visibility repo tại thời điểm cũ.
+
+---
+
 # Đồng bộ GitHub từng phần — 21/10/2026
 
 Repo riêng tư: hiep1607/ion-frontier, nhánh main. Nguồn chính: D:\Projects\IonFrontier, bản local 0.10.0.

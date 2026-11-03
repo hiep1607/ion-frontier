@@ -106,6 +106,8 @@ namespace IonFrontier
         {
             Application.targetFrameRate=120; QualitySettings.vSyncCount=1;
             Time.fixedDeltaTime=1f/60; random=new System.Random(479);
+            bool resultTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-result-test")>=0;
+            if(resultTest){Application.runInBackground=true;gameObject.AddComponent<IonResultTest>();}
             bool menuTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-menu-test")>=0;
             if(menuTest){Application.runInBackground=true;gameObject.AddComponent<IonMenuTest>();}
             bool clarityTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-clarity-test")>=0;bool balanceTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-balance-test")>=0;
@@ -130,9 +132,9 @@ namespace IonFrontier
             profilePath=System.IO.Path.Combine(Application.persistentDataPath,playtest?"playtest-profile-v2.json":"pilot-profile-v2.json");
             bool campaignTest=Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-campaign-test")>=0||vitalsTest||backgroundTest||escapeTest||ratingTest||tacticalTest||clarityTest||balanceTest;
             if(campaignTest)profilePath=System.IO.Path.Combine(Application.persistentDataPath,clarityTest?"clarity-test-profile.json":balanceTest?"balance-test-profile.json":tacticalTest?"tactical-test-profile.json":ratingTest?"rating-test-profile.json":escapeTest?"escape-test-profile.json":backgroundTest?"backdrop-test-profile.json":vitalsTest?"vitals-test-profile.json":"campaign-test-profile.json");
-            if(menuTest)profilePath=System.IO.Path.Combine(Application.temporaryCachePath,"menu-test-"+Guid.NewGuid().ToString("N")+".json");
-            profile=playtest||campaignTest||menuTest?new PilotProfile():IonCampaign.Load(profilePath);
-            SessionUnlocked=!playtest&&!campaignTest&&!menuTest&&Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-unlocked")>=0;
+            if(menuTest||resultTest)profilePath=System.IO.Path.Combine(Application.temporaryCachePath,"menu-test-"+Guid.NewGuid().ToString("N")+".json");
+            profile=playtest||campaignTest||menuTest||resultTest?new PilotProfile():IonCampaign.Load(profilePath);
+            SessionUnlocked=!playtest&&!campaignTest&&!menuTest&&!resultTest&&Array.IndexOf(Environment.GetCommandLineArgs(),"-ion-unlocked")>=0;
             if(SessionUnlocked)
             {
                 // This launch gets its own disposable profile; the real campaign save is never overwritten.
@@ -140,7 +142,7 @@ namespace IonFrontier
                 profile=new PilotProfile{clearedStages=IonCampaign.Stages,tutorialDone=true};
             }
             bestPath=System.IO.Path.Combine(Application.persistentDataPath,playtest?"playtest-best.txt":"best-score.txt");
-            if(SessionUnlocked||menuTest)bestPath=System.IO.Path.ChangeExtension(profilePath,"best.txt");
+            if(SessionUnlocked||menuTest||resultTest)bestPath=System.IO.Path.ChangeExtension(profilePath,"best.txt");
             if(campaignTest)bestPath=System.IO.Path.Combine(Application.persistentDataPath,clarityTest?"clarity-test-best.txt":balanceTest?"balance-test-best.txt":tacticalTest?"tactical-test-best.txt":ratingTest?"rating-test-best.txt":escapeTest?"escape-test-best.txt":backgroundTest?"backdrop-test-best.txt":vitalsTest?"vitals-test-best.txt":"campaign-test-best.txt");
             try { if(System.IO.File.Exists(bestPath)&&int.TryParse(System.IO.File.ReadAllText(bestPath),out int saved))Best=saved; } catch(System.IO.IOException) { Best=0; }
             hud=new GameObject("Flight interface").AddComponent<IonHud>(); hud.Initialize(this);
@@ -205,6 +207,7 @@ namespace IonFrontier
         public void BeginRun()
         {
             if(Sector>UnlockedStages)return;
+            PrepareResultRun();
             ResetCombat();runResolved=false;ResetDamageSources();ResetRating();ResetDraft();ResetModules();Score=0;Health=MaxHealth;damageFeedbackClock=damageContactClock=0;Kills=0;loadout.Reset();Wave=0;Elapsed=0;
             Ammo=IonCampaign.StartingAmmo(Sector);UltimateCharges=SessionUnlocked?1:0;AmmoSpent=0;GiftsCollected=0;BossAttacks=0;BossPhaseMask=0;BeamCasts=0;AutoFire=false;LootRolls=0;EnemyLootDrops=0;TestFreezeEnemies=false;TestCollectAmmo=false;
             player.sprite=IonArt.PlayerShips[SelectedHull];player.transform.localScale=Vector3.one*IonArt.ScaleFor(player.sprite,1.85f);
@@ -218,12 +221,12 @@ namespace IonFrontier
         public void NextStageHangar()
         {
             if(State!=FlightState.StageClear)return;
-            int next=Sector+1;ReturnToMenu();Sector=Mathf.Min(IonCampaign.Stages,next);profile.selectedHull=UnlockedHulls-1;IonCampaign.Save(profilePath,profile);hud.Refresh();
+            int next=Sector+1;ReturnToMenu();Sector=Mathf.Min(IonCampaign.Stages,next);IonCampaign.Save(profilePath,profile);hud.Refresh();
         }
 
         public void ReturnToMenu()
         {
-            SaveBest(); ResetCombat();ResetModules(); State=FlightState.Menu; SetPlayerVisible(false); hud.Refresh();
+            SaveBest(); ResetCombat();ResetModules(); State=FlightState.Menu;ApplyQueuedResultHull(); SetPlayerVisible(false); hud.Refresh();
         }
         public void TogglePause()
         {
@@ -254,6 +257,7 @@ namespace IonFrontier
             {
                 hud.HandleMenuInput();view.transform.position=new Vector3(0,0,-10);return;
             }
+            if(hud.HandleResultInput()){view.transform.position=new Vector3(0,0,-10);return;}
             if(hud.HandleInformationInput())return;
             if(Input.GetKeyDown(KeyCode.M)) ToggleAudio();
             if(Input.GetKeyDown(KeyCode.Escape)||Input.GetKeyDown(KeyCode.P)) TogglePause();
@@ -644,6 +648,7 @@ namespace IonFrontier
         {
             if(runResolved||won&&(Health<=0||State==FlightState.Defeat))return;
             runResolved=true;
+            int unlockedBefore=UnlockedHulls,stagesBefore=UnlockedStages;
             EndUltimate();
             if(won)
             {
@@ -652,6 +657,7 @@ namespace IonFrontier
                 State=Sector==IonCampaign.Stages?FlightState.Victory:FlightState.StageClear;
             }
             else State=FlightState.Defeat;
+            CommitResultPresentation(won,unlockedBefore,stagesBefore);
             SetPlayerVisible(won);SaveBest();ClearHostileBullets();ClearBeams();HideMissionObjects();hud.ShowBanner(false,Sector,SectorName);hud.Refresh();
         }
         public bool UseUltimate()

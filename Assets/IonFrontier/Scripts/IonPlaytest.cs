@@ -53,6 +53,7 @@ namespace IonFrontier
             game.TestFire=false;game.TestSetAmmo(0);Check(!game.TestFireVolley()&&game.Ammo==0,"Empty ammunition rejects firing and never becomes negative");
             game.TestGivePickup(PickupKind.Ammo);Check(game.Ammo==60&&game.TestFireVolley()&&game.Ammo==59,"Ammo crate restores firing; one volley consumes exactly one round");
             game.TestRemoveInvulnerability();game.HurtPlayer();game.TestGivePickup(PickupKind.Shield);Check(game.Health==game.MaxHealth,"Repair pickup restores HP and respects the selected hull maximum");game.TestProtection(120);
+            game.TestResetLoadout(); // Natural-combat loot must not pre-own the pickup fixture's patterns.
             foreach(var kind in new[]{PickupKind.Spread,PickupKind.Pierce,PickupKind.Homing})
             {
                 game.TestGivePickup(kind);GunKind gun=kind==PickupKind.Spread?GunKind.Spread:kind==PickupKind.Pierce?GunKind.Pierce:GunKind.Homing;
@@ -67,7 +68,7 @@ namespace IonFrontier
             game.TestGiftDisplay();yield return new WaitForSecondsRealtime(.3f);yield return Capture("04-gifts.png");
             yield return ClearStage(1);Check(game.State==FlightState.StageClear&&game.UnlockedHulls==2&&game.UnlockedStages==2,"First boss defeat unlocks hull two and stage two");
             yield return Capture("05-first-unlock.png");game.TestReloadProgress();Check(game.ClearedStages==1&&game.ProfileFileExists,"Stage unlock persists and reloads from the separate test profile");
-            game.NextStageHangar();Check(game.Sector==2&&game.SelectedHull==1,"Next-stage hangar offers the newly unlocked ship");yield return Capture("06-hangar-unlocked.png");
+            game.NextStageHangar();Check(game.Sector==2&&game.SelectedHull==0,"Next-stage hangar preserves the flown hull until a reward hull is explicitly chosen");Check(game.SelectHull(1),"The newly unlocked reward hull is available for explicit selection");yield return Capture("06-hangar-unlocked.png");
             game.BeginRun();Check(!game.TutorialActive&&game.Ammo==210,"Stage two skips tutorial and grants 210 rounds");game.TestProtection(120);yield return ClearStage(2);
             Check(game.State==FlightState.StageClear&&game.UnlockedHulls==3&&game.UnlockedStages==3,"Second boss defeat unlocks hull three and stage three");
             game.ReturnToMenu();float expectedDamage=-1;int expectedCount=-1;

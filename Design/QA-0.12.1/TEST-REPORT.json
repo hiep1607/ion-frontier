@@ -1,0 +1,42 @@
+{
+  "version": "0.12.1",
+  "passed": true,
+  "checks": 315,
+  "reports": {
+    "Result": {
+      "passed": true,
+      "checks": 59,
+      "file": "outputs\\Result-Rewards\\Result\\result-report.json",
+      "sha256": "f421920cd870582e458ba72640b3719bb0c988aff386cd1fc8681273164785de"
+    },
+    "Rating": {
+      "passed": true,
+      "checks": 37,
+      "file": "outputs\\Result-Rewards\\Rating\\rating-report.json",
+      "sha256": "20be3d70a9019f45db0e91c67d24dd11e60c3e2f6993375572d861e74b55531c"
+    },
+    "Regression": {
+      "passed": true,
+      "checks": 108,
+      "file": "outputs\\Result-Rewards\\Regression\\playtest-report.json",
+      "sha256": "feb4b4668fbfe1a04fa7422f223402cf5d5d677f857111aaf41f52eb85a40de2"
+    },
+    "Menu": {
+      "passed": true,
+      "checks": 111,
+      "file": "outputs\\Result-Rewards\\Menu\\menu-report.json",
+      "sha256": "b1c31032c57f6c688c48f1380aa6d17923672da7b131cff647bd955642011367"
+    }
+  },
+  "assemblySha256": "36450ba9b18aa5ce20c58d72ac6195fd52ac30a5fe367c39e13cf7bc78af942d",
+  "exeSha256": "af88b840e599661ac63fc10ae27ac77dd97cd46b44df8a7ce60eb0dcfacfc99e",
+  "originalProjectFilesUnchanged": 409,
+  "sourceAssetSettingsHashesVerified": 277,
+  "realProfileUnchanged": true,
+  "resultPortraitMatchesRunHull": true,
+  "rewardUnlocksOnlyOnFirstClear": true,
+  "build": "Builds/Result-Rewards/IonFrontier.exe",
+  "osInputVerified": false,
+  "nativeCaptureMethod": "Unity RenderTexture, temporarily camera-mode canvas sorted above world sprites; restored after capture.",
+  "createdAtUtc": "2026-11-03T06:46:29.459803+00:00"
+}

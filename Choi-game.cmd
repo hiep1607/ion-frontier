@@ -1,4 +1,8 @@
 @echo off
+if not exist "%~dp0Builds\Result-Rewards\IonFrontier.exe" goto cinematic
+start "ION FRONTIER NEXT" /D "%~dp0Builds\Result-Rewards" "%~dp0Builds\Result-Rewards\IonFrontier.exe"
+exit /b
+:cinematic
 if not exist "%~dp0Builds\Cinematic-Menu\IonFrontier.exe" goto legacy
 start "ION FRONTIER NEXT" /D "%~dp0Builds\Cinematic-Menu" "%~dp0Builds\Cinematic-Menu\IonFrontier.exe"
 exit /b
